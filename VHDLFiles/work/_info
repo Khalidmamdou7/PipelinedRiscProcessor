@@ -49,25 +49,64 @@ R11
 !i113 1
 R12
 R13
+Efetchstage
+Z14 w1653748581
+R2
+R3
+R4
+Z15 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd
+Z16 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd
+l0
+L4
+Vi]eGWTI8Fi0m0@P7WRRbB3
+!s100 jgNEnJ=W8W>fgYnIK8N3?0
+R7
+32
+Z17 !s110 1653748590
+!i10b 1
+Z18 !s108 1653748590.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd|
+Z20 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd|
+!i113 1
+R12
+R13
+Aarch_fetchstage
+R2
+R3
+Z21 DEx4 work 10 fetchstage 0 22 i]eGWTI8Fi0m0@P7WRRbB3
+l35
+L13
+VoW;7?Oo=^4DHY6L;l;8=:3
+!s100 f<]>KN;U4nj?kO7Jn[IRQ2
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
 Epc
-Z14 w1653742156
+Z22 w1653742156
 R1
 R2
 R3
 R4
-Z15 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd
-Z16 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd
+Z23 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd
+Z24 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd
 l0
 L6
 V^G@dJj8HzjHGZOfCUj4ZA0
 !s100 MROISGQQ;CC4nd_V6RW0:3
 R7
 32
-Z17 !s110 1653742160
+Z25 !s110 1653742160
 !i10b 1
-Z18 !s108 1653742160.000000
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd|
-Z20 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd|
+Z26 !s108 1653742160.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd|
+Z28 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd|
 !i113 1
 R12
 R13
@@ -82,32 +121,32 @@ Vn?7bmW47C6Sb_lF>EMPFE3
 !s100 LiCDAWG1;5Y]67;TN6n:G2
 R7
 32
-R17
+R25
 !i10b 1
-R18
-R19
-R20
+R26
+R27
+R28
 !i113 1
 R12
 R13
 Epipelinebuffer
-Z21 w1653743049
+Z29 w1653743049
 R2
 R3
 R4
-Z22 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
-Z23 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
+Z30 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
+Z31 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
 l0
 L4
 VVLBT^KC7Y7XU1`oDmK]U61
 !s100 3mY[3aleHEgiVb;5@mX]l2
 R7
 32
-Z24 !s110 1653743053
+Z32 !s110 1653743053
 !i10b 1
-Z25 !s108 1653743053.000000
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd|
-Z27 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd|
+Z33 !s108 1653743053.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd|
+Z35 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd|
 !i113 1
 R12
 R13
@@ -121,11 +160,11 @@ V82i_;mg`ZSM?QGg;3J3Z]2
 !s100 ]EVH@;mIoD`i0HEHVUVUl3
 R7
 32
-R24
+R32
 !i10b 1
-R25
-R26
-R27
+R33
+R34
+R35
 !i113 1
 R12
 R13
