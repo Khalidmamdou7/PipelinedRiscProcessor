@@ -4,7 +4,6 @@ Use ieee.std_logic_1164.all;
 Entity FetchStage IS
     PORT (
         clk: IN std_logic;
-        PCval: IN std_logic_vector (31 DOWNTO 0);
         NextInstAdd: OUT std_logic_vector (31 DOWNTO 0);
         Inst: OUT std_logic_vector (31 DOWNTO 0)
     );
@@ -27,8 +26,8 @@ ARCHITECTURE arch_FetchStage OF FetchStage IS
     END COMPONENT;
     
 
-    SIGNAL pc_In: std_logic_vector(31 downto 0);
-	SIGNAL pc_Out, readFromPC, adder_out: std_logic_vector(31 downto 0);
+	SIGNAL pc_In, pc_Out: std_logic_vector(31 downto 0);
+
    
 
     BEGIN
