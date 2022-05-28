@@ -8,3 +8,44 @@ z2
 !i10f 100
 cModel Technology
 dD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Labs/Lab #4/Lab4/Code Files
+Eadder
+Z0 w1653740884
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles
+Z5 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Adder.vhd
+Z6 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Adder.vhd
+l0
+L6
+VJlCHD`T[N]@?OVB8lm4[l2
+!s100 7a3X`iG>f;H=HQVVaOmFY1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1653740887
+!i10b 1
+Z9 !s108 1653740887.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Adder.vhd|
+Z11 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Adder.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarch_adder
+R1
+R2
+R3
+DEx4 work 5 adder 0 22 JlCHD`T[N]@?OVB8lm4[l2
+l15
+L14
+VmQoLe[?VW9MGaOd;T@V]53
+!s100 =i^h^BkLeVoGo0MlDS4IT0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
