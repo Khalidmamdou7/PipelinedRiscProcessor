@@ -9,24 +9,24 @@ z2
 cModel Technology
 dD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Labs/Lab #4/Lab4/Code Files
 Eadder
-Z0 w1653740884
+Z0 w1653773993
 Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z4 dD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles
-Z5 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Adder.vhd
-Z6 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Adder.vhd
+Z4 dC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles
+Z5 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Adder.vhd
+Z6 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Adder.vhd
 l0
 L6
 VJlCHD`T[N]@?OVB8lm4[l2
 !s100 7a3X`iG>f;H=HQVVaOmFY1
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1653740887
+Z8 !s110 1653774132
 !i10b 1
-Z9 !s108 1653740887.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Adder.vhd|
-Z11 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Adder.vhd|
+Z9 !s108 1653774132.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Adder.vhd|
+Z11 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Adder.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
@@ -46,6 +46,47 @@ R8
 R9
 R10
 R11
+!i113 1
+R12
+R13
+Ememory
+Z14 w1653764256
+R1
+R2
+R3
+R4
+Z15 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Memory.vhd
+Z16 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Memory.vhd
+l0
+L5
+Vz[8e24Q:ajiRTGZGhLUbJ2
+!s100 010f^AiKSXLkbiVOJe0o?2
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Memory.vhd|
+Z18 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Memory.vhd|
+!i113 1
+R12
+R13
+Amymemory
+R1
+R2
+R3
+DEx4 work 6 memory 0 22 z[8e24Q:ajiRTGZGhLUbJ2
+l27
+L22
+VTOQ^RddGg:MZh8;gT5l4P1
+!s100 NHK=ZDhllj1nJ9A6aA2jT2
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
 !i113 1
 R12
 R13
