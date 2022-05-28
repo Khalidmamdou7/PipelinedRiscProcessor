@@ -27,16 +27,30 @@ ARCHITECTURE arch_FetchStage OF FetchStage IS
     END COMPONENT;
     
 
-    SIGNAL pc_In: std_logic_vector(31 downto 0);
-	SIGNAL pc_Out, readFromPC, adder_out: std_logic_vector(31 downto 0);
+   
+	SIGNAL pc_Out, pc_In, readFromPC, adder_out: std_logic_vector(31 downto 0);
+    SIGNAL state: std_logic := '0';
    
 
     BEGIN
 
-        pcAdder: adder PORT MAP (X"00000001", pc_Out, pc_In);
+        pcAdder: adder PORT MAP (X"00000004", readFromPC, adder_out);
         myPC: PC PORT MAP (clk, pc_In,  pc_Out);
-        Inst <= pc_Out;
-        NextInstAdd <= pc_In;
         
+
+        PROCESS(CLK, state) is
+            begin
+                IF (state = '0') THEN
+                    pc_In <= PCval;
+                    state <= '1';
+                ELSE
+                    pc_In <= adder_out;
+                END IF;
+                IF (rising_edge(clk)) THEN
+                    readFromPC <= pc_Out;
+                END IF;
+
+        
+        end PROCESS;
 
 END arch_FetchStage;
