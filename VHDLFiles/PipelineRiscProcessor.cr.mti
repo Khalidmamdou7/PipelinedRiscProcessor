@@ -1,12 +1,4 @@
-{D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Processor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Processor.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity Processor
--- Compiling architecture arch_Processor of Processor
-
-} {} {}} {D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd}
+{D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -23,7 +15,20 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity adder
 -- Compiling architecture arch_adder of adder
 
-} {} {}} {D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd}
+} {} {}} {D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FetchStage
+-- Compiling architecture arch_FetchStage of FetchStage
+
+} {} {}} {D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/regfile.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/regfile.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+** Error: D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/regfile.vhd(2): near "hii": syntax error
+
+} {4.0 5.0} {}} {D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
