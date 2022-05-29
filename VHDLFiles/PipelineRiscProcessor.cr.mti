@@ -15,12 +15,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity my_32adder
 -- Compiling architecture a_my_32adder of my_32adder
 
-} {} {}} C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd
+} {} {}} C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
-** Error: C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd(2): near "hii": syntax error
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity regfile
+-- Compiling architecture myregfile of regfile
 
-} {4.0 5.0} {}} C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd
+} {} {}} C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -37,14 +41,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity PC
 -- Compiling architecture arch_PC of PC
 
-} {} {}} C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Processor.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Processor.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity Processor
--- Compiling architecture arch_Processor of Processor
-
 } {} {}} C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -52,6 +48,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling entity pipelineBuffer
 -- Compiling architecture arch_pipelineBuffer of pipelineBuffer
+
+} {} {}} C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Processor.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Processor.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Processor
+-- Compiling architecture arch_Processor of Processor
 
 } {} {}} C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Adder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -61,6 +65,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity adder
 -- Compiling architecture arch_adder of adder
+
+} {} {}} C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity CONTROL
+-- Compiling architecture myCONTROL of CONTROL
 
 } {} {}} C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
