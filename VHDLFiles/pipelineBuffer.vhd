@@ -2,7 +2,7 @@ LIBRARY IEEE;
 USE IEEE.std_logic_1164.all;
 
 ENTITY pipelineBuffer IS 
-	Generic ( n : Integer:=32);
+	Generic ( n : Integer:=64);
 	PORT ( CLK: IN std_logic;
             input: IN std_logic_vector (n-1 DOWNTO 0);
             output: OUT std_logic_vector (n-1 DOWNTO 0)
@@ -14,7 +14,7 @@ ARCHITECTURE arch_pipelineBuffer OF pipelineBuffer is
 	BEGIN
     process(clk) IS
     begin
-        IF (falling_edge(clk)) THEN
+        IF (rising_edge(clk)) THEN
             output <= input;
         END IF;
 
