@@ -28,7 +28,6 @@ ARCHITECTURE myMemory OF Memory IS
 	PROCESS(clk) IS
 		BEGIN
 			IF rising_edge(clk) THEN
-			Memory(to_integer(unsigned(PCAddress))) <= WritePCData;
 				IF MemWrite = '1' THEN
 					Memory(to_integer(unsigned(address))) <= WriteData;
 				elsif push = '1' then
