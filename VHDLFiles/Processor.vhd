@@ -118,6 +118,54 @@ ARCHITECTURE arch_Processor OF Processor IS
             ReadPCData : OUT std_logic_vector(31 DOWNTO 0)
         );
     END COMPONENT;
+    COMPONENT IFIDBuffer IS 
+        PORT ( CLK: IN std_logic;
+                IF_flush, IF_write: IN std_logic;
+                inst_in, nextInst_in: IN std_logic_vector (31 DOWNTO 0);
+                inst_out, nextInst_out: OUT std_logic_vector (31 DOWNTO 0)
+                );
+    END COMPONENT;
+    COMPONENT IDEXBuffer IS 
+        PORT ( CLK: IN std_logic;
+                nextInstAdd_in, rd1_in, rd2_in, offset_in: IN std_logic_vector (31 DOWNTO 0);
+                rSrc1_in, rSrc2_in, rDst_in, ALUop_in: IN std_logic_vector (2 downto 0);
+                BranchSrc_in, MemIndex_in: IN std_logic_vector (1 downto 0);
+                isBranch_in, ALUsrc_in, MovToReg_in, RegW_in, Push_in, pop_in,
+                MEMW_in, MEMR_in, RTI_in, RET_in, PCsrc2_in, useMEMindex_in, selectorForCall_in, selectorForINT_in: IN std_logic;
+                nextInstAdd_out, rd1_out, rd2_out, offset_out: OUT std_logic_vector (31 DOWNTO 0);
+                rSrc1_out, rSrc2_out, rDst_out, ALUop_out: OUT std_logic_vector (2 downto 0);
+                BranchSrc_out, MemIndex_out: OUT std_logic_vector (1 downto 0);
+                isBranch_out, ALUsrc_out, MovToReg_out, RegW_out, Push_out, pop_out,
+                MEMW_out, MEMR_out, RTI_out, RET_out, PCsrc2_out, useMEMindex_out, selectorForCall_out, selectorForINT_out: out std_logic
+
+                );
+    END COMPONENT;
+    COMPONENT ExMemBuffer IS 
+        PORT ( CLK: IN std_logic;
+                nextInstAdd_in, ALUresult_in, rSrc1Val_in: IN std_logic_vector (31 DOWNTO 0);
+                rSrc1_in, rDst_in, flags_in: IN std_logic_vector (2 downto 0);
+                MemIndex_in: IN std_logic_vector (1 downto 0);
+                MovToReg_in, RegW_in, Push_in, pop_in,
+                MEMW_in, MEMR_in, RTI_in, RET_in, PCsrc2_in, useMEMindex_in, selectorForCall_in, selectorForINT_in: IN std_logic;
+                nextInstAdd_out, ALUresult_out, rSrc1Val_out: OUT std_logic_vector (31 DOWNTO 0);
+                rSrc1_out, rDst_out, flags_out: OUT std_logic_vector (2 downto 0);
+                MemIndex_out: OUT std_logic_vector (1 downto 0);
+                MovToReg_out, RegW_out, Push_out, pop_out,
+                MEMW_out, MEMR_out, RTI_out, RET_out, PCsrc2_out, useMEMindex_out, selectorForCall_out, selectorForINT_out: out std_logic
+
+                );
+    END COMPONENT;
+    COMPONENT MemWbBuffer IS 
+        PORT ( CLK: IN std_logic;
+                ALUresult_in, MemRD_in: IN std_logic_vector (31 DOWNTO 0);
+                rSrc1_in, rDst_in: IN std_logic_vector (2 downto 0);
+                MovToReg_in, RegW_in: IN std_logic;
+                ALUresult_out, MemRD_out: OUT std_logic_vector (31 DOWNTO 0);
+                rSrc1_out, rDst_out: OUT std_logic_vector (2 downto 0);
+                MovToReg_out, RegW_out: out std_logic
+
+                );
+    END COMPONENT;
     
 
     SIGNAL s_InstAdd: std_logic_vector (31 downto 0);
@@ -136,6 +184,9 @@ ARCHITECTURE arch_Processor OF Processor IS
     SIGNAL s_sp_address, s_address: std_logic_vector(19 downto 0);
     SIGNAL MEM_writeData, MEM_readData: std_logic_vector(31 downto 0);
     SIGNAL MEMWB_buffer_in, MEMWB_buffer_OUT: std_logic_vector (71 DOWNTO 0);
+
+    SIGNAL IFID_inst_in, IFID_nextInst_in, IFID_inst_out, IFID_nextInst_out: std_logic_vector(31 downto 0);
+
     BEGIN
 
         
@@ -145,7 +196,7 @@ ARCHITECTURE arch_Processor OF Processor IS
                                 address => s_address, PCAddress => s_InstAdd(19 DOWNTO 0), SPAddress => s_sp_address,
                                 WriteData => MEM_writeData, ReadData => MEM_readData, ReadPCData => s_Inst);
         IFID_buffer_in <=  s_Inst & s_NextInstAdd;
-        IFIDbuffer: pipelineBuffer GENERIC MAP (64) PORT MAP (clk, IFID_buffer_in, IFID_buffer_out);
+        myIFIDbuffer: pipelineBuffer GENERIC MAP (64) PORT MAP (clk, IFID_buffer_in, IFID_buffer_out);
         Inst <= IFID_buffer_in(63 downto 32);
         NextInstAdd <= IFID_buffer_out(31 downto 0);
 
@@ -166,7 +217,7 @@ ARCHITECTURE arch_Processor OF Processor IS
                                         s_MemToReg & s_RegWrite & s_Push & s_Pop & s_MemR & s_MemW &
                                         s_RTI & s_RET &  s_PCsrc2 & s_UseMemIndex & 
                                         s_selectorforCALL & s_selectorforINT & s_MemIndex;
-        IDEXbuffer: pipelineBuffer GENERIC MAP (158) PORT MAP (clk, IDEX_buffer_in, IDEX_buffer_out);
+        myIDEXbuffer: pipelineBuffer GENERIC MAP (158) PORT MAP (clk, IDEX_buffer_in, IDEX_buffer_out);
         myEXEstage: EXEstage PORT MAP (clk => CLK, isBranch => s_isBranch, BranchSrc => s_BranchSrc,  ALUsrc => IDEX_buffer_out(143), 
                     ALUOperation => IDEX_buffer_out(139 DOWNTO 137), NextInstAddress => IDEX_buffer_out(19 DOWNTO 0),
                     ReadData1 => IDEX_buffer_out(63 DOWNTO 32), ReadData2 => IDEX_buffer_out(95 DOWNTO 64),
@@ -177,7 +228,7 @@ ARCHITECTURE arch_Processor OF Processor IS
                                 s_ALUresult & s_Flags & s_rSrc1Val &
                                 IDEX_buffer_out(130 DOWNTO 128) & IDEX_buffer_out(136 DOWNTO 134) &
                                  IDEX_buffer_out (157 DOWNTO 144);
-        EXMEMbuffer: pipelineBuffer GENERIC MAP (119) PORT MAP (clk, EXMEM_buffer_in, EXMEM_buffer_out);
+        myEXMEMbuffer: pipelineBuffer GENERIC MAP (119) PORT MAP (clk, EXMEM_buffer_in, EXMEM_buffer_out);
         myMEMstage: MEMstage Port MAP (clk, rst, Rsrc1Val => EXMEM_buffer_out(98 DOWNTO 67),
                                         ALUresult_in => EXMEM_buffer_out(63 DOWNTO 32), ALUflags => EXMEM_buffer_out(66 DOWNTO 64),
                                         NextInstAddress => EXMEM_buffer_out(19 DOWNTO 0), ALUresult_out => MEM_ALUResult,
@@ -189,7 +240,7 @@ ARCHITECTURE arch_Processor OF Processor IS
 
         MEMWB_buffer_in <= EXMEM_buffer_in(105) & EXMEM_buffer_out(106) &
                          EXMEM_buffer_out(104 downto 102) & EXMEM_buffer_out(101 downto 99) & MEM_readData & MEM_ALUResult;
-        MEMWBbuffer: pipelineBuffer GENERIC MAP (72) PORT MAP (clk, MEMWB_buffer_in, MEMWB_buffer_out);
+        myMEMWBbuffer: pipelineBuffer GENERIC MAP (72) PORT MAP (clk, MEMWB_buffer_in, MEMWB_buffer_out);
         myWBstage: WBstage PORT MAP(MEMWB_buffer_out(0), MEMWB_buffer_out(39 DOWNTO 8) , MEMWB_buffer_out(71 DOWNTO 40), s_WBresult);
 
         
