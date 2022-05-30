@@ -37,7 +37,6 @@ ARCHITECTURE arch_DecodeStage OF DecodeStage IS
     end COMPONENT;
     COMPONENT CONTROL IS
         PORT(
-            clk : IN std_logic;
             OPcode : IN  std_logic_vector(4 DOWNTO 0);
 
             RegWrite : OUT std_logic;
@@ -91,7 +90,10 @@ ARCHITECTURE arch_DecodeStage OF DecodeStage IS
                                             readreg2 => Inst(13 DOWNTO 11), 
                                             wrtreg => MEMWB_rDst, wrtdata => MEMWB_writeData,
                                             regwrite => MEMWB_regW, IORead => IOR, ReadData1 => ReadD1, ReadData2 => ReadD2);
-        myCU: CONTROL PORT MAP (CLK, OpCode => Inst(4 DOWNTO 0), RegWrite => RegWrite, IOread => IOR, IOwrite => IOW,
+        IFID_rSrc1 <= Inst(10 DOWNTO 8);
+        IFID_rSrc2 <= Inst(13 DOWNTO 11);
+        IFID_rDst <= Inst(7 DOWNTO 5);
+        myCU: CONTROL PORT MAP (OpCode => Inst(4 DOWNTO 0), RegWrite => RegWrite, IOread => IOR, IOwrite => IOW,
                                     isBranch => isBranch, branchSrc => branchSrc,
                                     ALUoperation => ALUop, ALUsrc => ALUsrc,
                                     Push => push, Pop=> pop, MemRead => MemR, MemWrite => MemW,
