@@ -26,7 +26,7 @@ signal temp : std_logic_vector(19 DOWNTO 0);
 signal dummy : std_logic_vector(19 DOWNTO 0);
 BEGIN
 temp <= dummy when Push = '0' and Pop = '0' else
-(dummy - "00000000000000000001") when Push = '1' and clk = '0' else
+(dummy - "00000000000000000001") when Push = '1' and clk = '1' else
 (dummy + "00000000000000000001") when Pop = '1' and clk = '1';
 
 f0: SP_reg port map (temp, clk, '0', '1', dummy);
