@@ -62,8 +62,13 @@ BEGIN
     dummy <= ('0'&NextInstAddress) + ('0'&SignExtend(19 DOWNTO 0));
     BranchAddressResult <= dummy(19 DOWNTO 0);
 
+    PCsrc1 <= flagsFROMalu(0) AND isBranch when BranchSrc = "00" else
+    flagsFROMalu(1) AND isBranch when BranchSrc = "01" else
+    flagsFROMalu(2) AND isBranch when BranchSrc = "10" else
+    '1' AND isBranch;
+
     operand2 <= ReadData2;
-    Rsrc1Val <= operand1;
+    Rsrc1Val <= ReadData1;
     f0 : ALU port map (ALUOperation, operand1, operand2, flagsTOalu, ALUresult, flagsFROMalu);
     f1 : FlagReg port map (clk, flagsFROMalu, flagsTOalu);
 END ARCHITECTURE;
