@@ -5,7 +5,7 @@ Entity DecodeStage IS
     PORT (
         clk: IN std_logic;
         Inst: IN std_logic_vector (31 DOWNTO 0);
-        MEMWB_rDst: IN std_logic_vector (2 DOWNTO 0);
+        MEMWB_rDst, MEMWB_rSrc1: IN std_logic_vector (2 DOWNTO 0);
         MEMWB_writeData: IN std_logic_vector (31 DOWNTO 0);
         MEMWB_regW: IN std_logic;
         ReadD1, ReadD2, offset: OUT std_logic_vector (31 DOWNTO 0);

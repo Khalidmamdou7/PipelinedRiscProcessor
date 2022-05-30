@@ -13,7 +13,6 @@ PORT(
 	PCAddress : IN std_logic_vector(19 DOWNTO 0);
 	SPAddress : IN std_logic_vector(19 DOWNTO 0);
 	WriteData  : IN  std_logic_vector(31 DOWNTO 0);
-	WritePCData  : IN  std_logic_vector(31 DOWNTO 0);
 	ReadData : OUT std_logic_vector(31 DOWNTO 0);
 	ReadPCData : OUT std_logic_vector(31 DOWNTO 0)
 );

@@ -6,6 +6,8 @@ USE IEEE.numeric_std.all;
 entity EXEstage IS
     PORT(
         clk : IN std_logic;
+        isBranch: IN std_logic;
+        BranchSrc: IN std_logic_vector(1 downto 0);
 
         ALUsrc : IN std_logic;
         ALUOperation : IN std_logic_vector (2 DOWNTO 0);
@@ -18,7 +20,8 @@ entity EXEstage IS
         ALUresult : OUT std_logic_vector (31 DOWNTO 0);
         Flags : OUT std_logic_vector (2 DOWNTO 0);
         Rsrc1Val : OUT std_logic_vector (31 DOWNTO 0);
-        BranchAddressResult : OUT std_logic_vector (19 DOWNTO 0)
+        BranchAddressResult : OUT std_logic_vector (19 DOWNTO 0);
+        PCsrc1: OUT std_logic
 
     );
 END entity;
