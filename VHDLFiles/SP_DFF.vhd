@@ -12,7 +12,7 @@ BEGIN
     PROCESS(clk,rst)
     BEGIN
         IF(rst = '1') THEN
-            q <= '0';
+            q <= '1';
         ELSIF ((falling_edge(clk) OR rising_edge(clk)) and en='1') THEN 
             q <= d;
         END IF;

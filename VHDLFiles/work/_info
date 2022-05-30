@@ -22,9 +22,9 @@ V`o58ba`AS[KgDXGbo4Ki10
 !s100 SO?@_;A9QBhZUFOoiC`D20
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1653898360
+Z8 !s110 1653900961
 !i10b 1
-Z9 !s108 1653898360.000000
+Z9 !s108 1653900961.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Adder.vhd|
 Z11 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Adder.vhd|
 !i113 1
@@ -104,11 +104,11 @@ V]egSD;05KdXo;hBQ@7b3c1
 !s100 EbT8A6[JW]LbBZa45P<V92
 R7
 32
-R8
+Z22 !s110 1653900962
 !i10b 1
-R9
-Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd|
-Z23 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd|
+Z23 !s108 1653900962.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd|
+Z25 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd|
 !i113 1
 R12
 R13
@@ -123,32 +123,32 @@ V5^b9Ii2XBMF?7__KzgoAg0
 !s100 fTNCZJZWnFzXUhBW`R>^K3
 R7
 32
-R8
-!i10b 1
-R9
 R22
+!i10b 1
 R23
+R24
+R25
 !i113 1
 R12
 R13
 Edecodestage
-Z24 w1653896747
+Z26 w1653896747
 R2
 R3
 R4
-Z25 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd
-Z26 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd
+Z27 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd
+Z28 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd
 l0
 L4
 V`Gb`DN4OC[`>J<ClkD2IG3
 !s100 :BVXgNd7_6CAX^@>W@PP<2
 R7
 32
-R8
+R22
 !i10b 1
-R9
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd|
-Z28 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd|
+R23
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd|
+Z30 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd|
 !i113 1
 R12
 R13
@@ -162,33 +162,33 @@ V:zcE^:TkJV=>V1eP1IKYL0
 !s100 76QJ>hSEf]hkTZ3HGXCmQ3
 R7
 32
-R8
+R22
 !i10b 1
-R9
-R27
-R28
+R23
+R29
+R30
 !i113 1
 R12
 R13
 Edff
-Z29 w1653870870
+Z31 w1653870870
 R1
 R2
 R3
 R4
-Z30 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DFF.vhd
-Z31 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DFF.vhd
+Z32 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DFF.vhd
+Z33 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DFF.vhd
 l0
 L5
 VJNPdA1h__`3aii3ALN^Xf2
 !s100 HVbkPjdD?W5`nBh3ddjeS1
 R7
 32
-R8
+R22
 !i10b 1
-R9
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DFF.vhd|
-Z33 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DFF.vhd|
+R23
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DFF.vhd|
+Z35 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/DFF.vhd|
 !i113 1
 R12
 R13
@@ -203,42 +203,42 @@ V^=5gE;YbX[CgJ29zPA2;71
 !s100 NF@fglAV1bGY5j>Dz3GFQ0
 R7
 32
-R8
+R22
 !i10b 1
-R9
-R32
-R33
+R23
+R34
+R35
 !i113 1
 R12
 R13
 Eexestage
-R24
+R26
 R1
-Z34 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z35 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z36 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z37 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R2
 R3
 R4
-Z36 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd
-Z37 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd
+Z38 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd
+Z39 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd
 l0
 L6
 VPDoPbXeCbJ8;B1RE[MVfF3
 !s100 7G[I6Jm?[17RDQY22OW;B1
 R7
 32
-R8
+R22
 !i10b 1
-R9
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd|
-Z39 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd|
+R23
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd|
+Z41 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd|
 !i113 1
 R12
 R13
 Amyexe
 R1
-R34
-R35
+R36
+R37
 R2
 R3
 DEx4 work 8 exestage 0 22 PDoPbXeCbJ8;B1RE[MVfF3
@@ -248,32 +248,32 @@ V=8PfXNM36cl``j>5ijQQn0
 !s100 hed761M3`Dd[cgk=O]ROP2
 R7
 32
-R8
+R22
 !i10b 1
-R9
-R38
-R39
+R23
+R40
+R41
 !i113 1
 R12
 R13
 Efetchstage
-Z40 w1653821259
+Z42 w1653821259
 R2
 R3
 R4
-Z41 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd
-Z42 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd
+Z43 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd
+Z44 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd
 l0
 L4
 VP8N1K@2cNA2j[:8E?izzj2
 !s100 9bD33?mC;BUHga=2CHfd53
 R7
 32
-R8
+R22
 !i10b 1
-R9
-Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd|
-Z44 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd|
+R23
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd|
+Z46 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd|
 !i113 1
 R12
 R13
@@ -287,33 +287,33 @@ VEVSe=?5kPVg56<7@>dDEL0
 !s100 C;Y@=imFR:m9Uh`H6i[B32
 R7
 32
-R8
+R22
 !i10b 1
-R9
-R43
-R44
+R23
+R45
+R46
 !i113 1
 R12
 R13
 Eflagreg
-Z45 w1653870847
+Z47 w1653870847
 R1
 R2
 R3
 R4
-Z46 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd
-Z47 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd
+Z48 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd
+Z49 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd
 l0
 L5
 V@T@7P7]n@OG83VZ8^JG?F1
 !s100 EDkeLkXS6Ol>5=_D:>GVC2
 R7
 32
-Z48 !s110 1653898361
+R22
 !i10b 1
-R9
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd|
-Z50 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd|
+R23
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd|
+Z51 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd|
 !i113 1
 R12
 R13
@@ -328,31 +328,31 @@ V9YA6f8]aXP^0eml1nKOZA1
 !s100 b=lzdWSJHgG^S27HRifJb1
 R7
 32
-R48
+R22
 !i10b 1
-R9
-R49
+R23
 R50
+R51
 !i113 1
 R12
 R13
 Eforwardingunit
-Z51 w1653877386
+Z52 w1653877386
 R1
 R2
 R3
 R4
-Z52 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd
-Z53 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd
+Z53 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd
+Z54 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd
 l0
 L5
 VIFhI_6A_3_<fnn:F[^Oa50
 !s100 ocWb2l[;oZbZJaEE?cQXn1
 R7
 32
-R48
+R22
 !i10b 1
-Z54 !s108 1653898361.000000
+R23
 Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd|
 Z56 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd|
 !i113 1
@@ -369,9 +369,9 @@ VS?X2WSA5Te43geTZ0Sgl]3
 !s100 X0dPanJ5`CJ]ko_h>:igR2
 R7
 32
-R48
+R22
 !i10b 1
-R54
+R23
 R55
 R56
 !i113 1
@@ -391,9 +391,9 @@ VV[mln:k26e;E@lBC6VP@R1
 !s100 =68L`PXnIc2a:RbBaYKhj2
 R7
 32
-R48
+R22
 !i10b 1
-R54
+R23
 Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/HazardDet.vhd|
 Z61 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/HazardDet.vhd|
 !i113 1
@@ -410,16 +410,16 @@ VEUXSZEES:6FkcgXiYe7^>0
 !s100 ba1O=RH22l86Nc?nFEXcm1
 R7
 32
-R48
+R22
 !i10b 1
-R54
+R23
 R60
 R61
 !i113 1
 R12
 R13
 Einoutport
-R51
+R52
 R1
 R2
 R3
@@ -432,11 +432,11 @@ V_BUX7Gh3>bARV;0V]iM5>2
 !s100 ZlM=ZB5T`daD<bJ?A:J9L0
 R7
 32
-R48
+Z64 !s110 1653900963
 !i10b 1
-R54
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/InOutPort.vhd|
-Z65 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/InOutPort.vhd|
+R23
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/InOutPort.vhd|
+Z66 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/InOutPort.vhd|
 !i113 1
 R12
 R13
@@ -451,33 +451,33 @@ VzT>:iIAM8d`;OC0eC?]oF0
 !s100 j:M_Uim1PO745TOMdb60Z0
 R7
 32
-R48
-!i10b 1
-R54
 R64
+!i10b 1
+R23
 R65
+R66
 !i113 1
 R12
 R13
 Ememory
-R40
+R42
 R1
 R2
 R3
 R4
-Z66 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Memory.vhd
-Z67 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Memory.vhd
+Z67 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Memory.vhd
+Z68 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Memory.vhd
 l0
 L5
 Vz[8e24Q:ajiRTGZGhLUbJ2
 !s100 010f^AiKSXLkbiVOJe0o?2
 R7
 32
-R48
+R64
 !i10b 1
-R54
-Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Memory.vhd|
-Z69 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Memory.vhd|
+Z69 !s108 1653900963.000000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Memory.vhd|
+Z71 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Memory.vhd|
 !i113 1
 R12
 R13
@@ -492,32 +492,73 @@ V8Zz7f7`2eWP`J3<feR4:c2
 !s100 BJ??`1k^dNHEC_GPb67fH0
 R7
 32
-R48
+R64
 !i10b 1
-R54
-R68
 R69
+R70
+R71
+!i113 1
+R12
+R13
+Ememstage
+Z72 w1653900924
+R1
+R2
+R3
+R4
+Z73 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/MEMstage.vhd
+Z74 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/MEMstage.vhd
+l0
+L5
+VY=Md;SG@zRRQ5T@Eoi3;j3
+!s100 50<M`XkFWGNI][2GK9a>M3
+R7
+32
+Z75 !s110 1653900964
+!i10b 1
+Z76 !s108 1653900964.000000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/MEMstage.vhd|
+Z78 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/MEMstage.vhd|
+!i113 1
+R12
+R13
+Amymem
+R1
+R2
+R3
+DEx4 work 8 memstage 0 22 Y=Md;SG@zRRQ5T@Eoi3;j3
+l46
+L33
+VN1z2I1>e<c_kZ04ccQ0gJ0
+!s100 VBeC1M>5G1EzVng?zk1I50
+R7
+32
+R75
+!i10b 1
+R76
+R77
+R78
 !i113 1
 R12
 R13
 Emy_32adder
-Z70 w1653834865
+Z79 w1653834865
 R2
 R3
 R4
-Z71 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd
-Z72 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd
+Z80 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd
+Z81 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd
 l0
 L4
 Voj15eLfiH=[j<NI=MzRiO2
 !s100 ?f7TD]L`PQJicQSTHAfCa0
 R7
 32
-R48
+R64
 !i10b 1
-R54
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd|
-Z74 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd|
+R69
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd|
+Z83 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd|
 !i113 1
 R12
 R13
@@ -531,32 +572,32 @@ VAmNhHG7NoaGfUP1Rf:n@i2
 !s100 NRh3Uk<<I;j<kfF:ld_c>0
 R7
 32
-R48
+R64
 !i10b 1
-R54
-R73
-R74
+R69
+R82
+R83
 !i113 1
 R12
 R13
 Emy_adder
-Z75 w1645955920
+Z84 w1645955920
 R2
 R3
 R4
-Z76 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd
-Z77 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd
+Z85 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd
+Z86 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd
 l0
 L4
 VX[<35FM3O_1Rl2VnhYKh@0
 !s100 dFf[U[gLckWFN74o[WdF`3
 R7
 32
-R48
+R64
 !i10b 1
-R54
-Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd|
-Z79 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd|
+R69
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd|
+Z88 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd|
 !i113 1
 R12
 R13
@@ -570,21 +611,21 @@ V9WcSgHoSD51eBIB3O7JBE1
 !s100 o_S<g@>GjBOL]gCX4]?e:3
 R7
 32
-R48
+R64
 !i10b 1
-R54
-R78
-R79
+R69
+R87
+R88
 !i113 1
 R12
 R13
 Emy_dff
-Z80 w1653864666
+Z89 w1653864666
 R2
 R3
 R4
-Z81 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd
-Z82 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd
+Z90 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd
+Z91 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd
 l0
 L4
 VF8282jZY_Z=Jc4PhoXlW73
@@ -594,8 +635,8 @@ R7
 R8
 !i10b 1
 R9
-Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd|
-Z84 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd|
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd|
+Z93 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd|
 !i113 1
 R12
 R13
@@ -612,29 +653,29 @@ R7
 R8
 !i10b 1
 R9
-R83
-R84
+R92
+R93
 !i113 1
 R12
 R13
 Emy_ndff
-Z85 w1653886042
+Z94 w1653886042
 R2
 R3
 R4
-Z86 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd
-Z87 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd
+Z95 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd
+Z96 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd
 l0
 L4
 Vkj0[7JT>:nOmZTIe[hFP@0
 !s100 bM0_ZQVoY?10i;So1O^Ia3
 R7
 32
-R48
+R64
 !i10b 1
-R54
-Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd|
-Z89 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd|
+R69
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd|
+Z98 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd|
 !i113 1
 R12
 R13
@@ -648,33 +689,33 @@ VK:_j_eP8l8D@D?Ai0BDNV1
 !s100 o]EilHAJAaJ8O9oZQDCb31
 R7
 32
-R48
+R64
 !i10b 1
-R54
-R88
-R89
+R69
+R97
+R98
 !i113 1
 R12
 R13
 Epc
-R40
+R42
 R1
 R2
 R3
 R4
-Z90 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/PC.vhd
-Z91 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/PC.vhd
+Z99 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/PC.vhd
+Z100 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/PC.vhd
 l0
 L6
 V=4U<Mj[]E;6@fjO[5UJVZ3
 !s100 A5ZCPnc=ndPzLT;S^?1d[1
 R7
 32
-Z92 !s110 1653898362
+R64
 !i10b 1
-R54
-Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/PC.vhd|
-Z94 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/PC.vhd|
+R69
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/PC.vhd|
+Z102 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/PC.vhd|
 !i113 1
 R12
 R13
@@ -689,32 +730,32 @@ Vn?7bmW47C6Sb_lF>EMPFE3
 !s100 LiCDAWG1;5Y]67;TN6n:G2
 R7
 32
-R92
+R64
 !i10b 1
-R54
-R93
-R94
+R69
+R101
+R102
 !i113 1
 R12
 R13
 Epipelinebuffer
-Z95 w1653858993
+Z103 w1653858993
 R2
 R3
 R4
-Z96 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
-Z97 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
+Z104 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
+Z105 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
 l0
 L4
 VWm6I^jLUV`9@fN1=BbC=W3
 !s100 kQndmmhHP6W9k8oC:H0Ed0
 R7
 32
-R92
+R64
 !i10b 1
-Z98 !s108 1653898362.000000
-Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd|
-Z100 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd|
+R69
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd|
+Z107 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd|
 !i113 1
 R12
 R13
@@ -728,32 +769,32 @@ VN=ndl;EK^fKaW`JbLRXko0
 !s100 ]o9fG8AjRb<1I2JKZEB[A1
 R7
 32
-R92
+R64
 !i10b 1
-R98
-R99
-R100
+R69
+R106
+R107
 !i113 1
 R12
 R13
 Eprocessor
-R24
+R26
 R2
 R3
 R4
-Z101 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Processor.vhd
-Z102 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Processor.vhd
+Z108 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Processor.vhd
+Z109 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Processor.vhd
 l0
 L4
 V4nX=>dNmIVoz8gRVfU2GW1
 !s100 REGLT>jOaj0e@OSKVNPn?2
 R7
 32
-R92
+R64
 !i10b 1
-R98
-Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Processor.vhd|
-Z104 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Processor.vhd|
+R69
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Processor.vhd|
+Z111 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/Processor.vhd|
 !i113 1
 R12
 R13
@@ -767,33 +808,33 @@ Vi9>Qdn07em2EYGX=:FaL20
 !s100 aQ]P;RjKgLHazM<DOVoKb3
 R7
 32
-R92
+R64
 !i10b 1
-R98
-R103
-R104
+R69
+R110
+R111
 !i113 1
 R12
 R13
 Eregfile
-R80
+R89
 R1
 R2
 R3
 R4
-Z105 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd
-Z106 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd
+Z112 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd
+Z113 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd
 l0
 L5
 V1IlJ]hd6QlI0UmZU8ZLm?2
 !s100 oGECf^NWNU:iSO^Tn2ok81
 R7
 32
-R92
+R75
 !i10b 1
-R98
-Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd|
-Z108 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd|
+R69
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd|
+Z115 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/regfile.vhd|
 !i113 1
 R12
 R13
@@ -808,33 +849,33 @@ VB1ZDKF6IbSAo]h[L8e=942
 !s100 ckiza0ImjPfTBAEDglQ@f2
 R7
 32
-R92
+R75
 !i10b 1
-R98
-R107
-R108
+R69
+R114
+R115
 !i113 1
 R12
 R13
 Esignext
-R51
+R52
 R1
 R2
 R3
 R4
-Z109 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd
-Z110 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd
+Z116 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd
+Z117 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd
 l0
 L5
 VFZ7H[V:WS7lG8@GO@hZSd2
 !s100 d8d>Jgk[YJTAoc0IE`F3R0
 R7
 32
-R92
+R75
 !i10b 1
-R98
-Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd|
-Z112 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd|
+R76
+Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd|
+Z119 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd|
 !i113 1
 R12
 R13
@@ -849,33 +890,33 @@ VzdJo=5Yi;dIJO32M?9>Ji2
 !s100 DVTj_9SkCb7@KohKSGL?J0
 R7
 32
-R92
+R75
 !i10b 1
-R98
-R111
-R112
+R76
+R118
+R119
 !i113 1
 R12
 R13
 Esp_dff
-Z113 w1653896620
+Z120 w1653900881
 R1
 R2
 R3
 R4
-Z114 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd
-Z115 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd
+Z121 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd
+Z122 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd
 l0
 L5
 VY0zQ_@Jo7bEGEX9h=HDhN1
 !s100 0Pf3ln[VKI`<UFbA[J]Ti3
 R7
 32
-R92
+R75
 !i10b 1
-R98
-Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd|
-Z117 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd|
+R76
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd|
+Z124 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd|
 !i113 1
 R12
 R13
@@ -886,15 +927,15 @@ R3
 DEx4 work 6 sp_dff 0 22 Y0zQ_@Jo7bEGEX9h=HDhN1
 l11
 L10
-VLa?i`QgHO<>f404z9LP8a1
-!s100 zMT<H6k_zg[hkYITe2VZE0
+V_UFB2fi_KARJ74K[5ahhf3
+!s100 o7k4@8ieSKLFmjE6`A_d=3
 R7
 32
-R92
+R75
 !i10b 1
-R98
-R116
-R117
+R76
+R123
+R124
 !i113 1
 R12
 R13
@@ -911,76 +952,76 @@ R7
 !s110 1653894510
 !i10b 1
 !s108 1653894510.000000
-R116
-R117
+R123
+R124
 !i113 1
 R12
 R13
 w1653894478
 Esp_full
-Z118 w1653898353
+Z125 w1653900884
 R1
-R34
-R35
+R36
+R37
 R2
 R3
 R4
-Z119 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd
-Z120 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd
+Z126 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd
+Z127 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd
 l0
 L6
-V]?YdGOaTTUZG_A;HYX7TC3
-!s100 2J0JBe?JfEOUPh``UmYC90
+V>IULUmGP6e:nO2T8HU[I?1
+!s100 Hn9J64i@U9fHaL2aXHQZR3
 R7
 32
-R92
+R75
 !i10b 1
-R98
-Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd|
-Z122 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd|
+R76
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd|
+Z129 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd|
 !i113 1
 R12
 R13
 Aa_sp_full
 R1
-R34
-R35
+R36
+R37
 R2
 R3
-DEx4 work 7 sp_full 0 22 ]?YdGOaTTUZG_A;HYX7TC3
-l27
-L15
-VQ0_dO_8M8KB<I8m_<fd;A2
-!s100 PkL;@[QRFOj7leHKkWjXi3
+DEx4 work 7 sp_full 0 22 >IULUmGP6e:nO2T8HU[I?1
+l29
+L17
+VXCMRobi;hKG9aDgD5NSkI1
+!s100 kgbd0cJb7<lV1UjB8^gIk3
 R7
 32
-R92
+R75
 !i10b 1
-R98
-R121
-R122
+R76
+R128
+R129
 !i113 1
 R12
 R13
 Esp_reg
-Z123 w1653896618
+Z130 w1653896618
 R1
 R2
 R3
 R4
-Z124 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd
-Z125 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd
+Z131 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd
+Z132 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd
 l0
 L5
 VkIR^oKZFZVd^=jmRIDzH90
 !s100 RQXzEUAH<YW>U5S>1zK882
 R7
 32
-R92
+R75
 !i10b 1
-R98
-Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd|
-Z127 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd|
+R76
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd|
+Z134 !s107 C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd|
 !i113 1
 R12
 R13
@@ -988,18 +1029,18 @@ Aa_sp_reg
 R1
 R2
 R3
-Z128 DEx4 work 6 sp_reg 0 22 kIR^oKZFZVd^=jmRIDzH90
+DEx4 work 6 sp_reg 0 22 kIR^oKZFZVd^=jmRIDzH90
 l20
 L16
-Z129 Vc0]TfDR=BN36L6agdgR7G0
-Z130 !s100 M]J8cEjc@fVTd^HlGPfT:2
+Vc0]TfDR=BN36L6agdgR7G0
+!s100 M]J8cEjc@fVTd^HlGPfT:2
 R7
 32
-R92
+R75
 !i10b 1
-R98
-R126
-R127
+R76
+R133
+R134
 !i113 1
 R12
 R13

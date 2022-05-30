@@ -7,7 +7,9 @@ ENTITY SP_FULL IS
     PORT(
         clk : IN std_logic;
         Push : IN std_logic;
-        Pop : IN std_logic
+        Pop : IN std_logic;
+        rst : IN std_logic;
+        addressout : OUT std_logic_vector (19 DOWNTO 0)
     );
 END ENTITY;
 
@@ -28,6 +30,6 @@ BEGIN
 temp <= dummy when Push = '0' and Pop = '0' else
 (dummy - "00000000000000000001") when Push = '1' and clk = '1' else
 (dummy + "00000000000000000001") when Pop = '1' and clk = '1';
-
-f0: SP_reg port map (temp, clk, '0', '1', dummy);
+addressout <= dummy;
+f0: SP_reg port map (temp, clk, rst, '1', dummy);
 END ARCHITECTURE;
