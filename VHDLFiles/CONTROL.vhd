@@ -23,6 +23,8 @@ PORT(
 
     RTI : out std_logic;
     RET : out std_logic;
+    PCsrc2 : out std_logic;
+
 
     MemIndex : out std_logic_vector(1 DOWNTO 0);
     UseMemIndex : out std_logic;
@@ -82,6 +84,8 @@ ARCHITECTURE myCONTROL OF CONTROL IS
 
     RET <= '1' when OPcode = "10111" OR OPcode = "11000" OR OPcode = "11001" else
     '0';
+
+    PCsrc2 <= '1' when OPcode = "10111" OR OPcode = "11000" OR OPcode = "11001" else '0';
 
     MemIndex <= "00";
     UseMemIndex <= '0';
