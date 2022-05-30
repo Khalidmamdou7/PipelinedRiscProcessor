@@ -31,6 +31,7 @@ PORT(
 
     MemtoReg : out std_logic;
 
+    firstaddressselector : out std_logic;
     selectorforCALL : out std_logic;
     selectorforINT : out std_logic
 );
@@ -89,6 +90,9 @@ ARCHITECTURE myCONTROL OF CONTROL IS
 
     MemIndex <= "00";
     UseMemIndex <= '0';
+
+    firstaddressselector <= '0' when OPcode = "11000" else
+    '1';
 
     MemtoReg <= '1' when OPcode = "00011" OR OPcode = "00100" OR OPcode = "00111" OR OPcode = "01000" OR OPcode = "01001" OR OPcode = "01010" OR OPcode = "01011" OR OPcode = "01100" OR OPcode = "01111" else
     '0';

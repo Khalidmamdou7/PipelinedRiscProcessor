@@ -19,5 +19,4 @@ BEGIN
 loop1: FOR i IN 0 TO n-1 GENERATE
  fx: my_DFF PORT MAP(d(i),Clk,Rst,en,q(i));
 END GENERATE;
-END b_my_nDFF;
-
+END b_my_nDFF;
