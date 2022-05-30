@@ -3,44 +3,25 @@ USE IEEE.STD_LOGIC_1164.ALL;
 use IEEE.std_logic_unsigned.all;
 USE IEEE.numeric_std.all;
 
-ENTITY EXEstage IS
-PORT(
-	clk : IN std_logic;
-	
-    RegWrite_in : IN std_logic;
-    MemtoReg_in : IN std_logic;
+entity EXEstage IS
+    PORT(
+        clk : IN std_logic;
 
-    Push_in : IN std_logic;
-    Pop_in : IN std_logic;
-    MemRead_in : IN std_logic;
-    MemWrite_in : IN std_logic;
+        ALUsrc : IN std_logic;
+        ALUOperation : IN std_logic_vector (2 DOWNTO 0);
 
-    RegWrite_out : OUT std_logic;
-    MemtoReg_out : OUT std_logic;
+        NextInstAddress : IN std_logic_vector (19 DOWNTO 0);
+        ReadData1 : IN std_logic_vector (31 DOWNTO 0);
+        ReadData2 : IN std_logic_vector (31 DOWNTO 0);
+        SignExtend : IN std_logic_vector (31 DOWNTO 0);
 
-    Push_out : OUT std_logic;
-    Pop_out : OUT std_logic;
-    MemRead_out : OUT std_logic;
-    MemWrite_out : OUT std_logic;
+        ALUresult : OUT std_logic_vector (31 DOWNTO 0);
+        Flags : OUT std_logic_vector (2 DOWNTO 0);
+        Rsrc1Val : OUT std_logic_vector (31 DOWNTO 0);
+        BranchAddressResult : OUT std_logic_vector (19 DOWNTO 0)
 
-    ALUsrc : IN std_logic;
-    ALUOperation : IN std_logic_vector (2 DOWNTO 0);
-
-    NextInstAddress : IN std_logic_vector (19 DOWNTO 0);
-    ExtendedValue : IN std_logic_vector (31 DOWNTO 0);
-
-    ReadData1 : IN std_logic_vector (31 DOWNTO 0);
-    ReadData2 : IN std_logic_vector (31 DOWNTO 0);
-    SignExtend : IN std_logic_vector (31 DOWNTO 0);
-
-    NextInstAddress_out : out std_logic_vector (19 DOWNTO 0);
-    ALUresult : OUT std_logic_vector (31 DOWNTO 0);
-    Flags : OUT std_logic_vector (2 DOWNTO 0);
-    Rsrc1Val : OUT std_logic_vector (31 DOWNTO 0);
-    BranchAddressResult : OUT std_logic_vector (19 DOWNTO 0)
-
-);
-END ENTITY;
+    );
+END entity;
 
 ARCHITECTURE myEXE OF EXEstage IS
 
@@ -56,12 +37,12 @@ COMPONENT ALU IS
 END COMPONENT;
 
 COMPONENT FlagReg is 
-generic (n: integer :=3);
-port(
-clk : in std_logic;
-D : in std_logic_vector (n-1 DOWNTO 0);
-Q : out std_logic_vector (n-1 DOWNTO 0)
-);
+    generic (n: integer :=3);
+    port(
+    clk : in std_logic;
+    D : in std_logic_vector (n-1 DOWNTO 0);
+    Q : out std_logic_vector (n-1 DOWNTO 0)
+    );
 end COMPONENT;
 
 SIGNAL operand1 : std_logic_vector(31 DOWNTO 0);
@@ -74,14 +55,6 @@ BEGIN
     operand1 <= ReadData1 when ALUsrc = '1' else
     SignExtend;
 
-    Pop_out <= Pop_in;
-    Push_out <= Push_in;
-    MemRead_out <= MemRead_in;
-    MemWrite_out <= MemWrite_in;
-    RegWrite_out <= RegWrite_in;
-    MemtoReg_out <= MemtoReg_in;
-
-    NextInstAddress_out <= NextInstAddress;
     Flags <= flagsFROMalu;
     dummy <= ('0'&NextInstAddress) + ('0'&SignExtend(19 DOWNTO 0));
     BranchAddressResult <= dummy(19 DOWNTO 0);
