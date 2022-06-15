@@ -32,6 +32,7 @@ ARCHITECTURE arch_Processor OF Processor IS
     COMPONENT DecodeStage IS
         PORT (
             clk: IN std_logic;
+            rst: IN std_logic;
             Inst: IN std_logic_vector (31 DOWNTO 0);
             MEMWB_rDst, MEMWB_rSrc1: IN std_logic_vector (2 DOWNTO 0);
             MEMWB_writeData: IN std_logic_vector (31 DOWNTO 0);
@@ -200,7 +201,7 @@ ARCHITECTURE arch_Processor OF Processor IS
         Inst <= IFID_buffer_in(63 downto 32);
         NextInstAdd <= IFID_buffer_out(31 downto 0);
 
-        myDecodeStage: DecodeStage PORT MAP (clk, IFID_buffer_out(63 downto 32),
+        myDecodeStage: DecodeStage PORT MAP (clk, rst, IFID_buffer_out(63 downto 32),
                                              MEMWB_buffer_out(4 downto 2), MEMWB_buffer_out(7 downto 5), 
                                              s_WBresult,
                                              MEMWB_buffer_out(1),

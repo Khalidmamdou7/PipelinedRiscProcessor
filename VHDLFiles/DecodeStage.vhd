@@ -4,6 +4,7 @@ Use ieee.std_logic_1164.all;
 Entity DecodeStage IS
     PORT (
         clk: IN std_logic;
+        rst: IN std_logic;
         Inst: IN std_logic_vector (31 DOWNTO 0);
         MEMWB_rDst, MEMWB_rSrc1: IN std_logic_vector (2 DOWNTO 0);
         MEMWB_writeData: IN std_logic_vector (31 DOWNTO 0);
@@ -86,7 +87,7 @@ ARCHITECTURE arch_DecodeStage OF DecodeStage IS
 
     BEGIN
 
-        myRegFile: regfile PORT MAP (CLK, rst => '0', readreg1 => Inst(10 DOWNTO 8),
+        myRegFile: regfile PORT MAP (CLK, rst => rst, readreg1 => Inst(10 DOWNTO 8),
                                             readreg2 => Inst(13 DOWNTO 11), 
                                             wrtreg => MEMWB_rDst, wrtdata => MEMWB_writeData,
                                             regwrite => MEMWB_regW, IORead => IOR, ReadData1 => ReadD1, ReadData2 => ReadD2);
