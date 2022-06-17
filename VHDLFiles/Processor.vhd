@@ -1,11 +1,14 @@
 Library ieee;
 Use ieee.std_logic_1164.all;
 
+USE work.IFIDp.all;
+use work.IDEXp.all;
+use work.EXMEMp.all;
+use work.MEMWBp.all;
+
 Entity Processor IS
     PORT (
-        clk, RST: IN std_logic;
-        NextInstAdd: OUT std_logic_vector (31 DOWNTO 0);
-        Inst: OUT std_logic_vector (31 DOWNTO 0)
+        clk, RST: IN std_logic
     );
 END Processor;
 
@@ -17,18 +20,11 @@ ARCHITECTURE arch_Processor OF Processor IS
         PCsrc1, PCsrc2: IN std_logic;
         Mem_ReadData: IN std_logic_vector(31 downto 0);
         BranchAddressResult: IN std_logic_vector(19 downto 0);
-        NextInstAdd: OUT std_logic_vector (31 DOWNTO 0);
-        InstAdd: OUT std_logic_vector (31 DOWNTO 0)
+        NextInstAdd: OUT std_logic_vector (19 DOWNTO 0);
+        InstAdd: OUT std_logic_vector (19 DOWNTO 0)
         );
     END COMPONENT;
-    COMPONENT pipelineBuffer IS 
-        Generic ( n : Integer:=64);
-
-        PORT (  CLK: IN std_logic;
-                input: IN std_logic_vector (N-1 DOWNTO 0);
-                output: OUT std_logic_vector (N-1 DOWNTO 0)
-                );
-    END COMPONENT;
+    
     COMPONENT DecodeStage IS
         PORT (
             clk: IN std_logic;
@@ -41,7 +37,8 @@ ARCHITECTURE arch_Processor OF Processor IS
             IFID_rSrc1, IFID_rSrc2, IFID_rDst: OUT std_logic_vector (2 DOWNTO 0);
             ALUop: OUT std_logic_vector (2 DOWNTO 0);
             BranchSrc: OUT std_logic_vector (1 DOWNTO 0);
-            isBranch, ALUsrc, MemToReg, RegWrite, Push, Pop, MemR, MemW, RTI, RET,  PCsrc2, UseMemIndex, selectorforCALL, selectorforINT: OUT std_logic;
+            isBranch, ALUsrc, MemToReg, RegWrite, Push, Pop, MemR, MemW,
+             RTI, RET,  PCsrc2, UseMemIndex, selectorforCALL, selectorforINT: OUT std_logic;
             MemIndex: OUT std_logic_vector (1 DOWNTO 0)
         );
     END COMPONENT;
@@ -122,128 +119,118 @@ ARCHITECTURE arch_Processor OF Processor IS
     COMPONENT IFIDBuffer IS 
         PORT ( CLK: IN std_logic;
                 IF_flush, IF_write: IN std_logic;
-                inst_in, nextInst_in: IN std_logic_vector (31 DOWNTO 0);
-                inst_out, nextInst_out: OUT std_logic_vector (31 DOWNTO 0)
-                );
+                IFIDs_in: IN IFIDs;
+                IFIDs_out: OUT IFIDs
+        );
     END COMPONENT;
     COMPONENT IDEXBuffer IS 
         PORT ( CLK: IN std_logic;
-                nextInstAdd_in, rd1_in, rd2_in, offset_in: IN std_logic_vector (31 DOWNTO 0);
-                rSrc1_in, rSrc2_in, rDst_in, ALUop_in: IN std_logic_vector (2 downto 0);
-                BranchSrc_in, MemIndex_in: IN std_logic_vector (1 downto 0);
-                isBranch_in, ALUsrc_in, MovToReg_in, RegW_in, Push_in, pop_in,
-                MEMW_in, MEMR_in, RTI_in, RET_in, PCsrc2_in, useMEMindex_in, selectorForCall_in, selectorForINT_in: IN std_logic;
-                nextInstAdd_out, rd1_out, rd2_out, offset_out: OUT std_logic_vector (31 DOWNTO 0);
-                rSrc1_out, rSrc2_out, rDst_out, ALUop_out: OUT std_logic_vector (2 downto 0);
-                BranchSrc_out, MemIndex_out: OUT std_logic_vector (1 downto 0);
-                isBranch_out, ALUsrc_out, MovToReg_out, RegW_out, Push_out, pop_out,
-                MEMW_out, MEMR_out, RTI_out, RET_out, PCsrc2_out, useMEMindex_out, selectorForCall_out, selectorForINT_out: out std_logic
-
+                IDEXs_in: IN IDEXs;
+                IDEXs_out: OUT IDEXs
                 );
     END COMPONENT;
     COMPONENT ExMemBuffer IS 
         PORT ( CLK: IN std_logic;
-                nextInstAdd_in, ALUresult_in, rSrc1Val_in: IN std_logic_vector (31 DOWNTO 0);
-                rSrc1_in, rDst_in, flags_in: IN std_logic_vector (2 downto 0);
-                MemIndex_in: IN std_logic_vector (1 downto 0);
-                MovToReg_in, RegW_in, Push_in, pop_in,
-                MEMW_in, MEMR_in, RTI_in, RET_in, PCsrc2_in, useMEMindex_in, selectorForCall_in, selectorForINT_in: IN std_logic;
-                nextInstAdd_out, ALUresult_out, rSrc1Val_out: OUT std_logic_vector (31 DOWNTO 0);
-                rSrc1_out, rDst_out, flags_out: OUT std_logic_vector (2 downto 0);
-                MemIndex_out: OUT std_logic_vector (1 downto 0);
-                MovToReg_out, RegW_out, Push_out, pop_out,
-                MEMW_out, MEMR_out, RTI_out, RET_out, PCsrc2_out, useMEMindex_out, selectorForCall_out, selectorForINT_out: out std_logic
-
+                EXMEMs_in : IN EXMEMs;
+                EXMEMs_out : OUT EXMEMs
                 );
     END COMPONENT;
     COMPONENT MemWbBuffer IS 
         PORT ( CLK: IN std_logic;
-                ALUresult_in, MemRD_in: IN std_logic_vector (31 DOWNTO 0);
-                rSrc1_in, rDst_in: IN std_logic_vector (2 downto 0);
-                MovToReg_in, RegW_in: IN std_logic;
-                ALUresult_out, MemRD_out: OUT std_logic_vector (31 DOWNTO 0);
-                rSrc1_out, rDst_out: OUT std_logic_vector (2 downto 0);
-                MovToReg_out, RegW_out: out std_logic
+                memwbs_in: in memwbs;
+                memwbs_out: out memwbs
 
                 );
     END COMPONENT;
     
+    
+    SIGNAL IFIDs_in, IFIDs_out: IFIDs;
+    SIGNAL IDEXs_in, IDEXs_out: IDEXs;
+    SIGNAL EXMEMs_in, EXMEMs_out: EXMEMs;
+    SIGNAL MEMWBs_in, MEMWbs_out: MEMWBs;
 
-    SIGNAL s_InstAdd: std_logic_vector (31 downto 0);
-	SIGNAL s_NextInstAdd, s_Inst, s_RD1, s_RD2, s_offset: std_logic_vector(31 downto 0);
-    SIGNAL s_IFID_rSrc1, s_IFID_rSrc2, s_IFID_rDst, s_ALUop: std_logic_vector(2 DOWNTO 0);
-    SIGNAL s_BranchSrc, s_MemIndex: std_logic_vector (1 DOWNTO 0);
-    SIGNAL s_isBranch, s_ALUsrc, s_MemToReg, s_RegWrite, s_Push, s_Pop, s_MemR, s_MemW,
-             s_RTI, s_RET, s_PCsrc1, s_PCsrc2, s_UseMemIndex, s_selectorforCALL, s_selectorforINT: std_logic;
-    SIGNAL IFID_buffer_in, IFID_buffer_out: std_logic_vector (63 downto 0);
-    SIGNAL IDEX_buffer_in, IDEX_buffer_out: std_logic_vector (157 downto 0);
-    SIGNAL s_ALUresult, s_rSrc1Val: std_logic_vector (31 DOWNTO 0);
-    Signal s_Flags: std_logic_vector(2 DOWNTO 0);
-    SIGNAL s_BranchAddressResult: std_logic_vector (19 DOWNTO 0);
-    SIGNAL EXMEM_buffer_in, EXMEM_buffer_out: std_logic_vector (118 DOWNTO 0);
-    SIGNAL s_WBresult, s_RDFM, MEMWB_ALUResult, MEM_ALUResult: std_logic_vector(31 downto 0);
-    SIGNAL s_sp_address, s_address: std_logic_vector(19 downto 0);
-    SIGNAL MEM_writeData, MEM_readData: std_logic_vector(31 downto 0);
-    SIGNAL MEMWB_buffer_in, MEMWB_buffer_OUT: std_logic_vector (71 DOWNTO 0);
+    SIGNAL IF_flush, IF_write, pcSrc1: std_logic;
+    SIGNAL s_InstAdd, s_BranchAddressResult, s_spAddress, s_address: std_logic_vector(19 downto 0);
+    SIGNAL s_writeData, s_WBresult: std_logic_vector(31 downto 0);
 
-    SIGNAL IFID_inst_in, IFID_nextInst_in, IFID_inst_out, IFID_nextInst_out: std_logic_vector(31 downto 0);
 
     BEGIN
 
+        myIFIDbuffer: IFIDbuffer PORT MAP (clk, IF_flush, IF_write, IFIDs_in, IFIDs_out);
+        myIDEXbuffer: IDEXbuffer PORT MAP (clk, IDEXs_in, IDEXs_out);
+        myExMemBuffer: ExMemBuffer PORT MAP (clk, EXMEMs_in, EXMEMs_out);
+        myMemWbBuffer: MEMWBbuffer PORT MAP (CLK, memwbs_in, memwbs_out);
+
+        myFetchStage: FetchStage PORT MAP (clk,
+                pcSrc1, ExMEMs_out.pcSrc2,
+                MEMWBs_in.MemRD, s_BranchAddressResult,
+                IFIDs_in.nextInstAdd, s_InstAdd);
         
-        myFetchStage: FetchStage PORT MAP (clk, s_PCsrc1, s_PCsrc2, MEM_readData, s_BranchAddressResult, s_NextInstAdd, s_InstAdd);
-        myMem: Memory PORT MAP (clk , MemWrite => EXMEM_buffer_out(110), MemRead => EXMEM_buffer_out(109),
-                                Push => EXMEM_buffer_out(107), Pop => EXMEM_buffer_out(108),
-                                address => s_address, PCAddress => s_InstAdd(19 DOWNTO 0), SPAddress => s_sp_address,
-                                WriteData => MEM_writeData, ReadData => MEM_readData, ReadPCData => s_Inst);
-        IFID_buffer_in <=  s_Inst & s_NextInstAdd;
-        myIFIDbuffer: pipelineBuffer GENERIC MAP (64) PORT MAP (clk, IFID_buffer_in, IFID_buffer_out);
-        Inst <= IFID_buffer_in(63 downto 32);
-        NextInstAdd <= IFID_buffer_out(31 downto 0);
+        myDecodeStage: DecodeStage PORT MAP (clk, rst, 
+                IFIDs_out.inst, MEMWBs_out.rDst, MEMWBs_out.rSrc1,
+                s_WBresult,
+                MEMWBs_out.RegW, IDEXs_in.rd1, IDEXs_in.rd2, IDEXs_in.offset,
+                IDEXs_in.rSrc1, IDEXs_in.rSrc2, IDEXs_in.rDst,
+                IDEXs_in.ALUop, IDEXs_in.BranchSrc, IDEXs_in.isBranch, 
+                IDEXs_in.ALUsrc, IDEXs_in.MovToReg, IDEXs_in.RegW, 
+                IDEXs_in.push, IDEXs_in.pop, IDEXs_in.memR, IDEXs_in.memW, 
+                IDEXs_in.rti, IDEXs_in.ret, IDEXs_in.pcSrc2, IDEXs_in.UseMemIndex,
+                IDEXs_in.selectorforCALL, IDEXs_in.selectorforINT,
+                IDEXs_in.MemIndex);
 
-        myDecodeStage: DecodeStage PORT MAP (clk, rst, IFID_buffer_out(63 downto 32),
-                                             MEMWB_buffer_out(4 downto 2), MEMWB_buffer_out(7 downto 5), 
-                                             s_WBresult,
-                                             MEMWB_buffer_out(1),
-                                             s_RD1, s_RD2, s_offset, 
-                                             s_IFID_rSrc1, s_IFID_rSrc2,s_IFID_rDst,
-                                             s_ALUop,  s_BranchSrc, s_isBranch, s_ALUsrc,
-                                             s_MemToReg, s_RegWrite, s_Push, s_Pop, s_MemR, s_MemW,
-                                             s_RTI, s_RET,  s_PCsrc2, s_UseMemIndex,
-                                             s_selectorforCALL, s_selectorforINT, s_MemIndex);
-        IDEX_buffer_in <= IFID_buffer_out (31 downto 0)                                           
-                                    & s_RD1 & s_RD2 & s_offset &                                  
-                                        s_IFID_rSrc1 & s_IFID_rSrc2 & s_IFID_rDst &               
-                                        s_ALUop &  s_BranchSrc & s_isBranch & s_ALUsrc &            
-                                        s_MemToReg & s_RegWrite & s_Push & s_Pop & s_MemR & s_MemW &
-                                        s_RTI & s_RET &  s_PCsrc2 & s_UseMemIndex & 
-                                        s_selectorforCALL & s_selectorforINT & s_MemIndex;
-        myIDEXbuffer: pipelineBuffer GENERIC MAP (158) PORT MAP (clk, IDEX_buffer_in, IDEX_buffer_out);
-        myEXEstage: EXEstage PORT MAP (clk => CLK, isBranch => s_isBranch, BranchSrc => s_BranchSrc,  ALUsrc => IDEX_buffer_out(143), 
-                    ALUOperation => IDEX_buffer_out(139 DOWNTO 137), NextInstAddress => IDEX_buffer_out(19 DOWNTO 0),
-                    ReadData1 => IDEX_buffer_out(63 DOWNTO 32), ReadData2 => IDEX_buffer_out(95 DOWNTO 64),
-                    SignExtend => IDEX_buffer_out(127 DOWNTO 96),  ALUresult => s_ALUresult,
-                    Flags => s_Flags, Rsrc1Val => s_rSrc1Val,
-                    BranchAddressResult => s_BranchAddressResult, PCsrc1 => s_PCsrc1);
-        EXMEM_buffer_in <= IDEX_buffer_out (31 DOWNTO 0) &
-                                s_ALUresult & s_Flags & s_rSrc1Val &
-                                IDEX_buffer_out(130 DOWNTO 128) & IDEX_buffer_out(136 DOWNTO 134) &
-                                 IDEX_buffer_out (157 DOWNTO 144);
-        myEXMEMbuffer: pipelineBuffer GENERIC MAP (119) PORT MAP (clk, EXMEM_buffer_in, EXMEM_buffer_out);
-        myMEMstage: MEMstage Port MAP (clk, rst, Rsrc1Val => EXMEM_buffer_out(98 DOWNTO 67),
-                                        ALUresult_in => EXMEM_buffer_out(63 DOWNTO 32), ALUflags => EXMEM_buffer_out(66 DOWNTO 64),
-                                        NextInstAddress => EXMEM_buffer_out(19 DOWNTO 0), ALUresult_out => MEM_ALUResult,
-                                        Push => EXMEM_buffer_out(107), Pop => EXMEM_buffer_out(108), UseMemIndex => ExMEM_Buffer_out(114),
-                                        MemIndex => EXMEM_buffer_out(118 downto 117), selectorForCall => EXMEM_buffer_out(115),
-                                        selectorForINT => EXMEM_buffer_out(116), sp_address => s_sp_address,
-                                        address => s_address, writeData => MEM_writeData);
+        IDEXs_in.nextInstAdd <= IFIDs_out.nextInstAdd;
+
+        ExMems_in.nextInstAdd <= IDEXs_out.nextInstAdd;
+        ExMEMs_in.rSrc1 <= IDEXs_out.rSrc1;
+        ExMEMs_in.rDst <= IDEXs_out.rDst;
+        ExMEMs_in.MemIndex <= IDEXs_out.MemIndex;
+        ExMEMs_in.MovToReg <= IDEXs_out.MovToReg;
+        ExMEMs_in.RegW <= IDEXs_out.RegW;
+        ExMEMs_in.push <= IDEXs_out.push;
+        ExMEMs_in.pop  <= IDEXs_out.pop;
+        ExMEMs_in.MemW <= IDEXs_out.MemW;
+        ExMEMs_in.MemR <= IDEXs_out.MemR;
+        ExMEMs_in.RTI <= IDEXs_out.RTI;
+        ExMEMs_in.RET <= IDEXs_out.RET;
+        ExMEMs_in.pcSrc2 <= IDEXs_out.pcSrc2;
+        ExMEMs_in.useMemIndex <= IDEXs_out.useMemIndex;
+        ExMEMs_in.selectorForCall <= IDEXs_out.selectorForCall;
+        ExMEMs_in.selectorForINT <= IDEXs_out.selectorForINT;
+
+        MemWBs_in.rSrc1 <= ExMEMs_out.rSrc1;
+        MemWBs_in.rDst <= ExMEMs_out.rDst;
+        MemWBs_in.MovToReg <= ExMEMs_out.MovToReg;
+        MemWBs_in.RegW <= ExMEMs_out.RegW;
 
 
-        MEMWB_buffer_in <= EXMEM_buffer_in(105) & EXMEM_buffer_out(106) &
-                         EXMEM_buffer_out(104 downto 102) & EXMEM_buffer_out(101 downto 99) & MEM_readData & MEM_ALUResult;
-        myMEMWBbuffer: pipelineBuffer GENERIC MAP (72) PORT MAP (clk, MEMWB_buffer_in, MEMWB_buffer_out);
-        myWBstage: WBstage PORT MAP(MEMWB_buffer_out(0), MEMWB_buffer_out(39 DOWNTO 8) , MEMWB_buffer_out(71 DOWNTO 40), s_WBresult);
 
+
+        myExStage: EXEstage PORT MAP (clk, IDEXs_out.isBranch, IDEXs_out.BranchSrc,
+                IDEXs_out.ALUsrc, IDEXs_out.ALUop, 
+                IDEXs_out.nextInstAdd, IDEXs_out.rd1,
+                IDEXs_out.rd2, IDEXs_out.offset, 
+                ExMEMs_in.ALUresult, ExMEMs_in.flags, 
+                ExMEMs_in.rSrc1Val, s_BranchAddressResult,
+                pcSrc1);
+        myMemStage: MEMstage PORT MAP (clk, rst,
+                ExMEMs_out.rSrc1Val, ExMEMs_out.ALUresult, 
+                ExMEMs_out.flags, ExMEMs_out.nextInstAdd, 
+                MEMWBs_in.ALUresult, 
+                ExMEMs_out.push, ExMEMs_out.pop, 
+                ExMEMs_out.useMemIndex, ExMEMs_out.MemIndex, 
+                ExMEMs_out.selectorForCall, ExMEMs_out.selectorForINT, 
+                s_spAddress, s_address, s_writeData);
+        myWbStage: WBstage PORT MAP (MEMWBs_out.MovToReg, 
+                MEMWBs_out.MemRD, MEMWBs_out.ALUresult, 
+                s_writeData);
+
+        myMemory: Memory PORT MAP (clk, ExMEMs_out.MemW, 
+                ExMEMs_out.MemR, ExMEMs_out.push, 
+                ExMEMs_out.pop, s_address, s_InstAdd, s_spAddress,
+                s_writeData, MEMWBs_in.MemRD, ReadPCData => IFIDs_in.inst);
+
+        
+        
         
 
 END arch_Processor;
