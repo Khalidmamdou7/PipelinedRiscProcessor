@@ -6,8 +6,8 @@ USE IEEE.numeric_std.all;
 ENTITY PC IS
 	PORT(
         clk : IN std_logic;
-        input: IN std_logic_vector (31 DOWNTO 0);
-        output: OUT std_logic_vector (31 downto 0)
+        input: IN std_logic_vector (19 DOWNTO 0);
+        output: OUT std_logic_vector (19 downto 0)
 		);
 END ENTITY PC;
 
