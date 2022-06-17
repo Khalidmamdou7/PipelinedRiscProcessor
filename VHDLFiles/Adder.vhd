@@ -4,9 +4,9 @@ USE IEEE.numeric_std.all;
 
 ENTITY adder IS
 	PORT(
-        Op1: IN std_logic_vector (31 DOWNTO 0);
-        Op2: IN std_logic_vector (31 downto 0);
-        result: OUT std_logic_vector (31 downto 0)
+        Op1: IN std_logic_vector (19 DOWNTO 0);
+        Op2: IN std_logic_vector (19 downto 0);
+        result: OUT std_logic_vector (19 downto 0)
 		);
 END ENTITY adder;
 
