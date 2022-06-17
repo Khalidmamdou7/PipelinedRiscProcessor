@@ -9,7 +9,7 @@ z2
 cModel Technology
 dD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Labs/Lab #4/Lab4/Code Files
 Eadder
-Z0 w1653857389
+Z0 w1655459165
 Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -18,13 +18,13 @@ Z5 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc 
 Z6 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Adder.vhd
 l0
 L5
-V`o58ba`AS[KgDXGbo4Ki10
-!s100 SO?@_;A9QBhZUFOoiC`D20
+VnkiF]mbC=>g^4TAHS^0LP2
+!s100 e]H<QS97`oCM55U`XPc_H2
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1653921869
+Z8 !s110 1655459497
 !i10b 1
-Z9 !s108 1653921869.000000
+Z9 !s108 1655459497.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Adder.vhd|
 Z11 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Adder.vhd|
 !i113 1
@@ -34,7 +34,7 @@ Aarch_adder
 R1
 R2
 R3
-DEx4 work 5 adder 0 22 `o58ba`AS[KgDXGbo4Ki10
+DEx4 work 5 adder 0 22 nkiF]mbC=>g^4TAHS^0LP2
 l14
 L13
 Vc>WKU2Zg2OeQ[`L_^81Wo2
@@ -50,13 +50,13 @@ R11
 R12
 R13
 Ealu
-R0
+Z14 w1653857389
 R1
 R2
 R3
 R4
-Z14 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ALU.vhd
-Z15 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ALU.vhd
+Z15 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ALU.vhd
+Z16 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ALU.vhd
 l0
 L5
 V6BCe7ERZJ17V7de2U1;nI2
@@ -66,8 +66,8 @@ R7
 R8
 !i10b 1
 R9
-Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ALU.vhd|
-Z17 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ALU.vhd|
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ALU.vhd|
+Z18 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ALU.vhd|
 !i113 1
 R12
 R13
@@ -85,19 +85,19 @@ R7
 R8
 !i10b 1
 R9
-R16
 R17
+R18
 !i113 1
 R12
 R13
 Econtrol
-Z18 w1653896911
+Z19 w1653896911
 R1
 R2
 R3
 R4
-Z19 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd
-Z20 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd
+Z20 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd
+Z21 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd
 l0
 L5
 V]egSD;05KdXo;hBQ@7b3c1
@@ -107,8 +107,8 @@ R7
 R8
 !i10b 1
 R9
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd|
-Z22 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd|
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd|
+Z23 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/CONTROL.vhd|
 !i113 1
 R12
 R13
@@ -126,69 +126,69 @@ R7
 R8
 !i10b 1
 R9
-R21
 R22
+R23
 !i113 1
 R12
 R13
 Edecodestage
-Z23 w1653913010
+Z24 w1655306303
 R2
 R3
 R4
-Z24 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd
-Z25 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd
+Z25 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd
+Z26 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd
 l0
 L4
-VI5_7O2hWkGo[Bn?kPTkA51
-!s100 2U4S6dKhgLIJ`OJNVHAiK1
+VhSDFMT_Mi@8?YnG=:]Lk<2
+!s100 G9ZjbGa`4P^ghLGMFC`]V3
 R7
 32
-Z26 !s110 1653921870
+R8
 !i10b 1
-Z27 !s108 1653921870.000000
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd|
-Z29 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd|
+R9
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd|
+Z28 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DecodeStage.vhd|
 !i113 1
 R12
 R13
 Aarch_decodestage
 R2
 R3
-DEx4 work 11 decodestage 0 22 I5_7O2hWkGo[Bn?kPTkA51
-l87
-L20
-V:zcE^:TkJV=>V1eP1IKYL0
-!s100 76QJ>hSEf]hkTZ3HGXCmQ3
+DEx4 work 11 decodestage 0 22 hSDFMT_Mi@8?YnG=:]Lk<2
+l88
+L21
+Vn4G3^_oUMJ67Lg9;UooaI2
+!s100 VDUQbHhHLe=QWQZNTcI0V2
 R7
 32
-R26
+R8
 !i10b 1
+R9
 R27
 R28
-R29
 !i113 1
 R12
 R13
 Edff
-Z30 w1653879400
+Z29 w1653879400
 R1
 R2
 R3
 R4
-Z31 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DFF.vhd
-Z32 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DFF.vhd
+Z30 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DFF.vhd
+Z31 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DFF.vhd
 l0
 L5
 VJNPdA1h__`3aii3ALN^Xf2
 !s100 HVbkPjdD?W5`nBh3ddjeS1
 R7
 32
-R26
+R8
 !i10b 1
-R27
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DFF.vhd|
-Z34 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DFF.vhd|
+R9
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DFF.vhd|
+Z33 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/DFF.vhd|
 !i113 1
 R12
 R13
@@ -203,42 +203,42 @@ V^=5gE;YbX[CgJ29zPA2;71
 !s100 NF@fglAV1bGY5j>Dz3GFQ0
 R7
 32
-R26
+R8
 !i10b 1
-R27
+R9
+R32
 R33
-R34
 !i113 1
 R12
 R13
 Eexestage
-Z35 w1653921045
+Z34 w1653926902
 R1
-Z36 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z37 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z35 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z36 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R2
 R3
 R4
-Z38 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd
-Z39 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd
+Z37 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd
+Z38 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd
 l0
 L6
 V70A5=Pe7o4S?<1<lBzLdh2
 !s100 a:2d?j2zOlJX@I2XJf7j]0
 R7
 32
-R26
+Z39 !s110 1655459498
 !i10b 1
-R27
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd|
-Z41 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd|
+Z40 !s108 1655459498.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd|
+Z42 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/EXEstage.vhd|
 !i113 1
 R12
 R13
 Amyexe
 R1
+R35
 R36
-R37
 R2
 R3
 DEx4 work 8 exestage 0 22 70A5=Pe7o4S?<1<lBzLdh2
@@ -248,111 +248,134 @@ VQ4fS;B=nUYbkM@YoQEH_S3
 !s100 2aAT75PU;20mZ]1iLQee=3
 R7
 32
-R26
+R39
 !i10b 1
-R27
 R40
 R41
+R42
 !i113 1
 R12
 R13
 Eexmembuffer
-Z42 w1653920434
+Z43 w1655311529
+Z44 DPx4 work 6 exmemp 0 22 3KN<_<;7mOTeoR<QiHDkQ3
 R2
 R3
 R4
-Z43 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ExMemBuffer.vhd
-Z44 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ExMemBuffer.vhd
+Z45 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ExMemBuffer.vhd
+Z46 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ExMemBuffer.vhd
 l0
-L4
-V5DC7KCY[GL7lGGGZTSKcX3
-!s100 SIM_b]OjADD@nVHVfzFC_0
+L6
+VbL_MoNEPa=ADS9Mfak52o2
+!s100 GUd2RbI>]?5AQWNi]NT;N2
 R7
 32
-R26
+R39
 !i10b 1
-R27
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ExMemBuffer.vhd|
-Z46 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ExMemBuffer.vhd|
+R40
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ExMemBuffer.vhd|
+Z48 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ExMemBuffer.vhd|
 !i113 1
 R12
 R13
 Aarch_exmembuffer
+R44
 R2
 R3
-DEx4 work 11 exmembuffer 0 22 5DC7KCY[GL7lGGGZTSKcX3
-l22
-L21
-V6mMHlZ1HDHA^UUGm?AZfR3
-!s100 U85QLkI=^k2n1[T;5H>za2
+DEx4 work 11 exmembuffer 0 22 bL_MoNEPa=ADS9Mfak52o2
+l15
+L14
+VlBdS>Q@:58fn9mEAB_Vlb1
+!s100 ?SL2][=<lBz[oJZa_n[1?2
 R7
 32
-R26
+R39
 !i10b 1
-R27
-R45
-R46
+R40
+R47
+R48
+!i113 1
+R12
+R13
+Pexmemp
+R2
+R3
+w1655458784
+R4
+8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ExMemPackage.vhd
+FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ExMemPackage.vhd
+l0
+L4
+V3KN<_<;7mOTeoR<QiHDkQ3
+!s100 Adj9>6a[8c:P?4=OXC0O61
+R7
+32
+Z49 !s110 1655459502
+!i10b 1
+Z50 !s108 1655459502.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ExMemPackage.vhd|
+!s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ExMemPackage.vhd|
 !i113 1
 R12
 R13
 Efetchstage
-R23
+Z51 w1655459197
 R2
 R3
 R4
-Z47 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd
-Z48 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd
+Z52 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd
+Z53 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd
 l0
 L4
-VF[2XOI^^L__MlUUcSmkLl3
-!s100 85MZC3GaLJfEQ^:HED^;<3
+VS:?ckbW;kWF7Fn[:E1`zD1
+!s100 DAMN?Lgm?3zd940mXAGZM3
 R7
 32
-R26
+R39
 !i10b 1
-R27
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd|
-Z50 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd|
+R40
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd|
+Z55 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FetchStage.vhd|
 !i113 1
 R12
 R13
 Aarch_fetchstage
 R2
 R3
-DEx4 work 10 fetchstage 0 22 F[2XOI^^L__MlUUcSmkLl3
+DEx4 work 10 fetchstage 0 22 S:?ckbW;kWF7Fn[:E1`zD1
 l38
 L15
-V]7F99^:enCf0jU0X4[lLI3
-!s100 O<G0nNVM`5<c]7lkWcU912
+Vz;a:;zkmA99mOD2e35cKL0
+!s100 j6c2FNe^XjW_BmEmk9]8X3
 R7
 32
-R26
+R39
 !i10b 1
-R27
-R49
-R50
+R40
+R54
+R55
 !i113 1
 R12
 R13
 Eflagreg
-R30
+R29
 R1
 R2
 R3
 R4
-Z51 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd
-Z52 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd
+Z56 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd
+Z57 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd
 l0
 L5
 V@T@7P7]n@OG83VZ8^JG?F1
 !s100 EDkeLkXS6Ol>5=_D:>GVC2
 R7
 32
-R26
+R39
 !i10b 1
-R27
-Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd|
-Z54 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd|
+R40
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd|
+Z59 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/FlagReg.vhd|
 !i113 1
 R12
 R13
@@ -367,33 +390,33 @@ V9YA6f8]aXP^0eml1nKOZA1
 !s100 b=lzdWSJHgG^S27HRifJb1
 R7
 32
-R26
+R39
 !i10b 1
-R27
-R53
-R54
+R40
+R58
+R59
 !i113 1
 R12
 R13
 Eforwardingunit
-R30
+R29
 R1
 R2
 R3
 R4
-Z55 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd
-Z56 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd
+Z60 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd
+Z61 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd
 l0
 L5
 VIFhI_6A_3_<fnn:F[^Oa50
 !s100 ocWb2l[;oZbZJaEE?cQXn1
 R7
 32
-Z57 !s110 1653921871
+R39
 !i10b 1
-R27
-Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd|
-Z59 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd|
+R40
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd|
+Z63 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/ForwardingUnit.vhd|
 !i113 1
 R12
 R13
@@ -408,33 +431,33 @@ VS?X2WSA5Te43geTZ0Sgl]3
 !s100 X0dPanJ5`CJ]ko_h>:igR2
 R7
 32
-R57
+R39
 !i10b 1
-R27
-R58
-R59
+R40
+R62
+R63
 !i113 1
 R12
 R13
 Ehazarddetection
-Z60 w1653895292
+Z64 w1653895292
 R1
 R2
 R3
 R4
-Z61 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/HazardDet.vhd
-Z62 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/HazardDet.vhd
+Z65 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/HazardDet.vhd
+Z66 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/HazardDet.vhd
 l0
 L5
 VV[mln:k26e;E@lBC6VP@R1
 !s100 =68L`PXnIc2a:RbBaYKhj2
 R7
 32
-R57
+R39
 !i10b 1
-Z63 !s108 1653921871.000000
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/HazardDet.vhd|
-Z65 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/HazardDet.vhd|
+R40
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/HazardDet.vhd|
+Z68 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/HazardDet.vhd|
 !i113 1
 R12
 R13
@@ -449,111 +472,157 @@ VEUXSZEES:6FkcgXiYe7^>0
 !s100 ba1O=RH22l86Nc?nFEXcm1
 R7
 32
-R57
+R39
 !i10b 1
-R63
-R64
-R65
+R40
+R67
+R68
 !i113 1
 R12
 R13
 Eidexbuffer
-Z66 w1653921808
+Z69 w1655311096
+Z70 DPx4 work 5 idexp 0 22 3f;Q[nnIZ]CFJ=6KDD@o:2
 R2
 R3
 R4
-Z67 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IDEXBuffer.vhd
-Z68 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IDEXBuffer.vhd
+Z71 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IDEXBuffer.vhd
+Z72 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IDEXBuffer.vhd
 l0
 L6
-VHiRiIhf2[obno:M53a3O:0
-!s100 YnTDGR@c;:0J5__[V9<ZK3
+Vb;c[bf@^CAgRkGnFQ<<UJ3
+!s100 `T0?2LCDIRc2YldfbWFm;3
 R7
 32
-R57
+Z73 !s110 1655459499
 !i10b 1
-R63
-Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IDEXBuffer.vhd|
-Z70 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IDEXBuffer.vhd|
+R40
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IDEXBuffer.vhd|
+Z75 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IDEXBuffer.vhd|
 !i113 1
 R12
 R13
 Aarch_idexbuffer
-R2
-R3
-DEx4 work 10 idexbuffer 0 22 HiRiIhf2[obno:M53a3O:0
-l24
-L23
-V>cAWL:fXdlbFJJ^1ThDKN1
-!s100 ie8fL?a<nXD9OMBEIeHhb3
-R7
-32
-R57
-!i10b 1
-R63
-R69
 R70
-!i113 1
-R12
-R13
-Eifidbuffer
-Z71 w1653918588
 R2
 R3
-R4
-Z72 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IFIDBuffer.vhd
-Z73 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IFIDBuffer.vhd
-l0
-L4
-VLHc=ikn6HE0VDSS09ab1T0
-!s100 Ei;>8X=Sc`9]k?PmC1R2T2
+DEx4 work 10 idexbuffer 0 22 b;c[bf@^CAgRkGnFQ<<UJ3
+l15
+L14
+VGd8KJ;N[fj<F`XjM;eGM]3
+!s100 ikV@ZN:EXF0A<OB_j>^G<3
 R7
 32
-R57
+R73
 !i10b 1
-R63
-Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IFIDBuffer.vhd|
-Z75 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IFIDBuffer.vhd|
-!i113 1
-R12
-R13
-Aarch_ifidbuffer
-R2
-R3
-DEx4 work 10 ifidbuffer 0 22 LHc=ikn6HE0VDSS09ab1T0
-l14
-L13
-VEbYi3?KQV6i3`dWT@PSPP1
-!s100 5DNKJJ3T1<I7P5lji:hNE3
-R7
-32
-R57
-!i10b 1
-R63
+R40
 R74
 R75
 !i113 1
 R12
 R13
+Pidexp
+R2
+R3
+w1655458715
+R4
+8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IDEXpackage.vhd
+FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IDEXpackage.vhd
+l0
+L4
+V3f;Q[nnIZ]CFJ=6KDD@o:2
+!s100 H5:azk`k`35`P<H3oh4PL3
+R7
+32
+R49
+!i10b 1
+Z76 !s108 1655459501.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IDEXpackage.vhd|
+!s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IDEXpackage.vhd|
+!i113 1
+R12
+R13
+Eifidbuffer
+Z77 w1655459484
+Z78 DPx4 work 5 ifidp 0 22 X_9I6N3gQiE@<HEM5P>mF3
+R2
+R3
+R4
+Z79 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IFIDBuffer.vhd
+Z80 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IFIDBuffer.vhd
+l0
+L6
+VdRFfa^S_PoVBAG65F`<ng0
+!s100 UZ@jikP?lYHm3FA7k3lC=2
+R7
+32
+R73
+!i10b 1
+Z81 !s108 1655459499.000000
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IFIDBuffer.vhd|
+Z83 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IFIDBuffer.vhd|
+!i113 1
+R12
+R13
+Aarch_ifidbuffer
+R78
+R2
+R3
+DEx4 work 10 ifidbuffer 0 22 dRFfa^S_PoVBAG65F`<ng0
+l16
+L15
+Vz83MI<WeW0Y59F4^^COf52
+!s100 bcgLk3YmCdk`V9PM@4ImM1
+R7
+32
+R73
+!i10b 1
+R81
+R82
+R83
+!i113 1
+R12
+R13
+Pifidp
+R2
+R3
+w1655459005
+R4
+8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IFIDpackage.vhd
+FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IFIDpackage.vhd
+l0
+L4
+VX_9I6N3gQiE@<HEM5P>mF3
+!s100 OPn>@4;W<2kS:TQ@<d9zS3
+R7
+32
+Z84 !s110 1655459501
+!i10b 1
+R76
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IFIDpackage.vhd|
+!s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/IFIDpackage.vhd|
+!i113 1
+R12
+R13
 Einoutport
-Z76 w1653896908
+Z85 w1653896908
 R1
 R2
 R3
 R4
-Z77 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/InOutPort.vhd
-Z78 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/InOutPort.vhd
+Z86 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/InOutPort.vhd
+Z87 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/InOutPort.vhd
 l0
 L5
 V_BUX7Gh3>bARV;0V]iM5>2
 !s100 ZlM=ZB5T`daD<bJ?A:J9L0
 R7
 32
-R57
+R73
 !i10b 1
-R63
-Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/InOutPort.vhd|
-Z80 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/InOutPort.vhd|
+R81
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/InOutPort.vhd|
+Z89 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/InOutPort.vhd|
 !i113 1
 R12
 R13
@@ -568,33 +637,33 @@ VzT>:iIAM8d`;OC0eC?]oF0
 !s100 j:M_Uim1PO745TOMdb60Z0
 R7
 32
-R57
+R73
 !i10b 1
-R63
-R79
-R80
+R81
+R88
+R89
 !i113 1
 R12
 R13
 Ememory
-R23
+R34
 R1
 R2
 R3
 R4
-Z81 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Memory.vhd
-Z82 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Memory.vhd
+Z90 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Memory.vhd
+Z91 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Memory.vhd
 l0
 L5
 V[FY4En:2Rc0:Fhl>`Vjg13
 !s100 MWJbBmHA@]nWnzh86@ZdU2
 R7
 32
-R57
+R73
 !i10b 1
-R63
-Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Memory.vhd|
-Z84 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Memory.vhd|
+R81
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Memory.vhd|
+Z93 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Memory.vhd|
 !i113 1
 R12
 R13
@@ -609,33 +678,33 @@ V>0c6YVG79jRXTBJXNGC950
 !s100 AWNj7>3;4b7@Yh7@_]Ncn1
 R7
 32
-R57
+R73
 !i10b 1
-R63
-R83
-R84
+R81
+R92
+R93
 !i113 1
 R12
 R13
 Ememstage
-R23
+R34
 R1
 R2
 R3
 R4
-Z85 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MEMstage.vhd
-Z86 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MEMstage.vhd
+Z94 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MEMstage.vhd
+Z95 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MEMstage.vhd
 l0
 L5
 VXR[T55kI@6lF<EZNFcEk41
 !s100 o<ElM:=cNL^>1c^j:;FKM3
 R7
 32
-R57
+R73
 !i10b 1
-R63
-Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MEMstage.vhd|
-Z88 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MEMstage.vhd|
+R81
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MEMstage.vhd|
+Z97 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MEMstage.vhd|
 !i113 1
 R12
 R13
@@ -650,71 +719,94 @@ Vh6S^]AP;LagebH0867YC?3
 !s100 ALU_V8C]`mam9JT@GIMLD2
 R7
 32
-R57
+R73
 !i10b 1
-R63
-R87
-R88
+R81
+R96
+R97
 !i113 1
 R12
 R13
 Ememwbbuffer
-Z89 w1653920819
+Z98 w1655311717
+Z99 DPx4 work 6 memwbp 0 22 N8DFl41g<6MGSSHBcME[<1
 R2
 R3
 R4
-Z90 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MemWbBuffer.vhd
-Z91 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MemWbBuffer.vhd
+Z100 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MemWbBuffer.vhd
+Z101 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MemWbBuffer.vhd
 l0
-L4
-VG:MFaQ_?7df]MYHP3na3l1
-!s100 RMDbTPH8izA@ooOGdG?;[3
+L6
+V6RK:nmEn>5d2GT6<ZLd:<2
+!s100 <:<W@BiC^bI8Dd@3m@D3_0
 R7
 32
-Z92 !s110 1653921872
+R73
 !i10b 1
-R63
-Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MemWbBuffer.vhd|
-Z94 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MemWbBuffer.vhd|
+R81
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MemWbBuffer.vhd|
+Z103 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MemWbBuffer.vhd|
 !i113 1
 R12
 R13
 Aarch_memwbbuffer
+R99
 R2
 R3
-DEx4 work 11 memwbbuffer 0 22 G:MFaQ_?7df]MYHP3na3l1
-l18
-L17
-VK@CdHa;<Q8ShZ4QPE9`L<3
-!s100 W>7j[]?2KPo@fAzcan64I1
+DEx4 work 11 memwbbuffer 0 22 6RK:nmEn>5d2GT6<ZLd:<2
+l16
+L15
+VQ=o4YXbPFh]1J9mYc][X<2
+!s100 3dJ[<ic[DgIRbQfR<1`0W1
 R7
 32
-R92
+R73
 !i10b 1
-R63
-R93
-R94
+R81
+R102
+R103
+!i113 1
+R12
+R13
+Pmemwbp
+R2
+R3
+w1655311663
+R4
+8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MemWbPackage.vhd
+FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MemWbPackage.vhd
+l0
+L4
+VN8DFl41g<6MGSSHBcME[<1
+!s100 k`KcO4JzRjec2;hbJJf_L1
+R7
+32
+R49
+!i10b 1
+R50
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MemWbPackage.vhd|
+!s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/MemWbPackage.vhd|
 !i113 1
 R12
 R13
 Emy_32adder
-R0
+R14
 R2
 R3
 R4
-Z95 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd
-Z96 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd
+Z104 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd
+Z105 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd
 l0
 L4
 Voj15eLfiH=[j<NI=MzRiO2
 !s100 ?f7TD]L`PQJicQSTHAfCa0
 R7
 32
-R92
+R73
 !i10b 1
-Z97 !s108 1653921872.000000
-Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd|
-Z99 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd|
+R81
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd|
+Z107 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_32adder.vhd|
 !i113 1
 R12
 R13
@@ -728,32 +820,32 @@ VAmNhHG7NoaGfUP1Rf:n@i2
 !s100 NRh3Uk<<I;j<kfF:ld_c>0
 R7
 32
-R92
+R73
 !i10b 1
-R97
-R98
-R99
+R81
+R106
+R107
 !i113 1
 R12
 R13
 Emy_adder
-R0
+R14
 R2
 R3
 R4
-Z100 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd
-Z101 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd
+Z108 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd
+Z109 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd
 l0
 L4
 VX[<35FM3O_1Rl2VnhYKh@0
 !s100 dFf[U[gLckWFN74o[WdF`3
 R7
 32
-R92
+Z110 !s110 1655459500
 !i10b 1
-R97
-Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd|
-Z103 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd|
+Z111 !s108 1655459500.000000
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd|
+Z113 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/my_adder.vhd|
 !i113 1
 R12
 R13
@@ -767,21 +859,21 @@ V9WcSgHoSD51eBIB3O7JBE1
 !s100 o_S<g@>GjBOL]gCX4]?e:3
 R7
 32
-R92
+R110
 !i10b 1
-R97
-R102
-R103
+R111
+R112
+R113
 !i113 1
 R12
 R13
 Emy_dff
-Z104 w1653862474
+Z114 w1653862474
 R2
 R3
 R4
-Z105 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd
-Z106 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd
+Z115 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd
+Z116 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd
 l0
 L4
 VF8282jZY_Z=Jc4PhoXlW73
@@ -791,8 +883,8 @@ R7
 R8
 !i10b 1
 R9
-Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd|
-Z108 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd|
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd|
+Z118 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/1_bit_dff.vhd|
 !i113 1
 R12
 R13
@@ -809,29 +901,29 @@ R7
 R8
 !i10b 1
 R9
-R107
-R108
+R117
+R118
 !i113 1
 R12
 R13
 Emy_ndff
-R18
+R19
 R2
 R3
 R4
-Z109 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd
-Z110 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd
+Z119 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd
+Z120 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd
 l0
 L4
 Vkj0[7JT>:nOmZTIe[hFP@0
 !s100 bM0_ZQVoY?10i;So1O^Ia3
 R7
 32
-R92
+R110
 !i10b 1
-R97
-Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd|
-Z112 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd|
+R111
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd|
+Z122 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/n_bits_register.vhd|
 !i113 1
 R12
 R13
@@ -845,33 +937,33 @@ VK:_j_eP8l8D@D?Ai0BDNV1
 !s100 o]EilHAJAaJ8O9oZQDCb31
 R7
 32
-R92
+R110
 !i10b 1
-R97
 R111
-R112
+R121
+R122
 !i113 1
 R12
 R13
 Epc
-Z113 w1653782563
+Z123 w1655459177
 R1
 R2
 R3
 R4
-Z114 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd
-Z115 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd
+Z124 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd
+Z125 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd
 l0
 L6
-V=4U<Mj[]E;6@fjO[5UJVZ3
-!s100 A5ZCPnc=ndPzLT;S^?1d[1
+Va`QcTd>Rk2b3W_hn9?^c]3
+!s100 hlWiMh3N413V32l^Y?;=B0
 R7
 32
-R92
+R110
 !i10b 1
-R97
-Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd|
-Z117 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd|
+R111
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd|
+Z127 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/PC.vhd|
 !i113 1
 R12
 R13
@@ -879,39 +971,39 @@ Aarch_pc
 R1
 R2
 R3
-DEx4 work 2 pc 0 22 =4U<Mj[]E;6@fjO[5UJVZ3
+DEx4 work 2 pc 0 22 a`QcTd>Rk2b3W_hn9?^c]3
 l15
 L14
 Vn?7bmW47C6Sb_lF>EMPFE3
 !s100 LiCDAWG1;5Y]67;TN6n:G2
 R7
 32
-R92
+R110
 !i10b 1
-R97
-R116
-R117
+R111
+R126
+R127
 !i113 1
 R12
 R13
 Epipelinebuffer
-Z118 w1653786604
+Z128 w1653786604
 R2
 R3
 R4
-Z119 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
-Z120 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
+Z129 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
+Z130 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd
 l0
 L4
 VWm6I^jLUV`9@fN1=BbC=W3
 !s100 kQndmmhHP6W9k8oC:H0Ed0
 R7
 32
-R92
+R110
 !i10b 1
-R97
-Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd|
-Z122 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd|
+R111
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd|
+Z132 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/pipelineBuffer.vhd|
 !i113 1
 R12
 R13
@@ -925,72 +1017,80 @@ VN=ndl;EK^fKaW`JbLRXko0
 !s100 ]o9fG8AjRb<1I2JKZEB[A1
 R7
 32
-R92
+R110
 !i10b 1
-R97
-R121
-R122
+R111
+R131
+R132
 !i113 1
 R12
 R13
 Eprocessor
-Z123 w1653921998
+Z133 w1655459331
+R99
+R44
+R70
+R78
 R2
 R3
 R4
-Z124 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Processor.vhd
-Z125 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Processor.vhd
+Z134 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Processor.vhd
+Z135 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Processor.vhd
 l0
-L4
-V2`Oi`P7dGF5:DQHF0931z2
-!s100 kI;3_;E5:MFd^SKneRmB40
+L9
+V>I`_c7aRg3?T_C[0okf0o0
+!s100 k@3_ocOa2d>gzoza:DPAl1
 R7
 32
-Z126 !s110 1653922004
+R110
 !i10b 1
-Z127 !s108 1653922004.000000
-Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Processor.vhd|
-Z129 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Processor.vhd|
+R111
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Processor.vhd|
+Z137 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/Processor.vhd|
 !i113 1
 R12
 R13
 Aarch_processor
+R99
+R44
+R70
+R78
 R2
 R3
-Z130 DEx4 work 9 processor 0 22 2`Oi`P7dGF5:DQHF0931z2
-l190
-L12
-V2j>Id@A;hEj1=^Cl3HF:`3
-!s100 2kgF<V@9MCV=G`LjclhE73
+DEx4 work 9 processor 0 22 >I`_c7aRg3?T_C[0okf0o0
+l157
+L15
+V6=ICP2FR:hDOiPV31][b32
+!s100 W@GPi9@z8Sz1E2diCPekG2
 R7
 32
-R126
+R110
 !i10b 1
-R127
-R128
-R129
+R111
+R136
+R137
 !i113 1
 R12
 R13
 Eregfile
-Z131 w1653863434
+Z138 w1653863434
 R1
 R2
 R3
 R4
-Z132 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/regfile.vhd
-Z133 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/regfile.vhd
+Z139 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/regfile.vhd
+Z140 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/regfile.vhd
 l0
 L5
 V1IlJ]hd6QlI0UmZU8ZLm?2
 !s100 oGECf^NWNU:iSO^Tn2ok81
 R7
 32
-R92
+R110
 !i10b 1
-R97
-Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/regfile.vhd|
-Z135 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/regfile.vhd|
+R111
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/regfile.vhd|
+Z142 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/regfile.vhd|
 !i113 1
 R12
 R13
@@ -1005,33 +1105,33 @@ VB1ZDKF6IbSAo]h[L8e=942
 !s100 ckiza0ImjPfTBAEDglQ@f2
 R7
 32
-R92
+R110
 !i10b 1
-R97
-R134
-R135
+R111
+R141
+R142
 !i113 1
 R12
 R13
 Esignext
-Z136 w1653870739
+Z143 w1653870739
 R1
 R2
 R3
 R4
-Z137 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd
-Z138 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd
+Z144 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd
+Z145 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd
 l0
 L5
 VFZ7H[V:WS7lG8@GO@hZSd2
 !s100 d8d>Jgk[YJTAoc0IE`F3R0
 R7
 32
-R92
+R84
 !i10b 1
-R97
-Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd|
-Z140 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd|
+R76
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd|
+Z147 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SignExtender.vhd|
 !i113 1
 R12
 R13
@@ -1046,33 +1146,33 @@ VzdJo=5Yi;dIJO32M?9>Ji2
 !s100 DVTj_9SkCb7@KohKSGL?J0
 R7
 32
-Z141 !s110 1653921873
+R84
 !i10b 1
-R97
-R139
-R140
+R76
+R146
+R147
 !i113 1
 R12
 R13
 Esp_dff
-Z142 w1653901130
+Z148 w1653901130
 R1
 R2
 R3
 R4
-Z143 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd
-Z144 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd
+Z149 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd
+Z150 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd
 l0
 L5
 VY0zQ_@Jo7bEGEX9h=HDhN1
 !s100 0Pf3ln[VKI`<UFbA[J]Ti3
 R7
 32
-R141
+R84
 !i10b 1
-Z145 !s108 1653921873.000000
-Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd|
-Z147 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd|
+R76
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd|
+Z152 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd|
 !i113 1
 R12
 R13
@@ -1087,11 +1187,11 @@ V_UFB2fi_KARJ74K[5ahhf3
 !s100 o7k4@8ieSKLFmjE6`A_d=3
 R7
 32
-R141
+R84
 !i10b 1
-R145
-R146
-R147
+R76
+R151
+R152
 !i113 1
 R12
 R13
@@ -1118,33 +1218,33 @@ dC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles
 FC:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd
 8C:/Users/Femto/Desktop/PipelinedRiscProcessor/VHDLFiles/SP_DFF.vhd
 Esp_full
-R142
+R148
 R1
+R35
 R36
-R37
 R2
 R3
 R4
-Z148 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd
-Z149 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd
+Z153 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd
+Z154 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd
 l0
 L6
 V>IULUmGP6e:nO2T8HU[I?1
 !s100 Hn9J64i@U9fHaL2aXHQZR3
 R7
 32
-R141
+R84
 !i10b 1
-R145
-Z150 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd|
-Z151 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd|
+R76
+Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd|
+Z156 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_FULL.vhd|
 !i113 1
 R12
 R13
 Aa_sp_full
 R1
+R35
 R36
-R37
 R2
 R3
 DEx4 work 7 sp_full 0 22 >IULUmGP6e:nO2T8HU[I?1
@@ -1154,33 +1254,33 @@ VXCMRobi;hKG9aDgD5NSkI1
 !s100 kgbd0cJb7<lV1UjB8^gIk3
 R7
 32
-R141
+R84
 !i10b 1
-R145
-R150
-R151
+R76
+R155
+R156
 !i113 1
 R12
 R13
 Esp_reg
-R18
+R19
 R1
 R2
 R3
 R4
-Z152 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd
-Z153 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd
+Z157 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd
+Z158 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd
 l0
 L5
 VkIR^oKZFZVd^=jmRIDzH90
 !s100 RQXzEUAH<YW>U5S>1zK882
 R7
 32
-R141
+R84
 !i10b 1
-R145
-Z154 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd|
-Z155 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd|
+R76
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd|
+Z160 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/SP_reg.vhd|
 !i113 1
 R12
 R13
@@ -1195,42 +1295,42 @@ Vc0]TfDR=BN36L6agdgR7G0
 !s100 M]J8cEjc@fVTd^HlGPfT:2
 R7
 32
-R141
+R84
 !i10b 1
-R145
-R154
-R155
+R76
+R159
+R160
 !i113 1
 R12
 R13
 Ewbstage
-R23
+R34
 R1
+R35
 R36
-R37
 R2
 R3
 R4
-Z156 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/WBstage.vhd
-Z157 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/WBstage.vhd
+Z161 8D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/WBstage.vhd
+Z162 FD:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/WBstage.vhd
 l0
 L6
 VVz=gdaIW`R_4WFQU:AnXZ2
 !s100 a>Y^UO7`eL3`9XiVZz1;N3
 R7
 32
-R141
+R84
 !i10b 1
-R145
-Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/WBstage.vhd|
-Z159 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/WBstage.vhd|
+R76
+Z163 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/WBstage.vhd|
+Z164 !s107 D:/Study/College/3_Junior/Second Term/CMPN301 - Arch/Project/Pipelined Risc Processor/PipelinedRiscProcessor/VHDLFiles/WBstage.vhd|
 !i113 1
 R12
 R13
 Aarch_wbstage
 R1
+R35
 R36
-R37
 R2
 R3
 DEx4 work 7 wbstage 0 22 Vz=gdaIW`R_4WFQU:AnXZ2
@@ -1240,11 +1340,11 @@ V=_1W^hQ3jZ2_<5WEcLkDP2
 !s100 g0h9MBZ00B^S=hMH<d^QL0
 R7
 32
-R141
+R84
 !i10b 1
-R145
-R158
-R159
+R76
+R163
+R164
 !i113 1
 R12
 R13
